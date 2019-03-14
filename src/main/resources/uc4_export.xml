@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<uc-export clientvers="12.1.2+hf.1.build.10213">
+    <JOBP AllowExternal="1" name="BACE.ETL.CAMPAIGN.MIGRATE_KAMP_META.JOBP">
+        <XHEADER state="1">
+            <Title>LOAD METADATA FROM CODIAC_KAMP TO KAMP_META</Title>
+            <ArchiveKey1/>
+            <ArchiveKey2/>
+            <Active>1</Active>
+            <OH_SubType/>
+            <CustomAttributes KeyListID="0" dataRequestID="0"/>
+        </XHEADER>
+        <SYNCREF state="1">
+            <Syncs/>
+        </SYNCREF>
+        <ATTR_JOBP state="1">
+            <Queue>CLIENT_QUEUE</Queue>
+            <ChildQueue/>
+            <StartType/>
+            <ExtRepDef>1</ExtRepDef>
+            <ExtRepAll>0</ExtRepAll>
+            <ExtRepNone>0</ExtRepNone>
+            <IntAccount/>
+            <AutoDeactNo>0</AutoDeactNo>
+            <AutoDeact1ErrorFree>0</AutoDeact1ErrorFree>
+            <AutoDeactErrorFree>1</AutoDeactErrorFree>
+            <DeactWhen/>
+            <AutoDeactAlways>0</AutoDeactAlways>
+            <DeactDelay>0</DeactDelay>
+            <ActAtRun>0</ActAtRun>
+            <UC4Priority>0</UC4Priority>
+            <PassPriority>0</PassPriority>
+            <MaxParallel2>0</MaxParallel2>
+            <ReuseHG>0</ReuseHG>
+            <MpElse1>1</MpElse1>
+            <MpElse2>0</MpElse2>
+            <TZ/>
+            <RWhen/>
+            <RExecute/>
+            <JPA_SubType/>
+        </ATTR_JOBP>
+        <JOBP state="1">
+            <JobpStruct mode="design">
+                <task Alias="" BranchType="0" Col="1" Lnr="1" OType="&lt;START&gt;" Object="START" ParentAlias="" ParentObject="" Row="1" Text2="">
+                    <checkpoint RollbackFlag="0" RunPerPatch="0" RunPerTarget="0" TcpADays="0" TcpATime="00:00" TcpATimeTZ="" TcpExecute="" TcpOn="0" promptatgen="0" showprompt="0"/>
+                    <after ActFlg="1" AtimOn="0" ErlstStDays="0" ErlstStTime="00:00" ErlstStTimeTZ="" HoldFlg="0"/>
+                    <when ChkWhenExec="0" LtstEnd="0" LtstEndDays="0" LtstEndTime="00:00" LtstSt="0" LtstStDays="0" LtstStTime="00:00" LtstTimeTZ="" WCTypeAND="1" WCTypeOR="0" WElseA="0" WElseH="0" WElseS="1" WElseX="0" WhenExecute="" WtimOn="0"/>
+                    <preconditions>
+                        <PreCon>
+                            <conditions id="CONDITIONS"/>
+                        </PreCon>
+                    </preconditions>
+                    <predecessors/>
+                    <runtime MrtCancel="0" MrtDays="0" MrtErt="0" MrtExecute="0" MrtExecuteObj="" MrtFix="0" MrtMethodDate="0" MrtMethodErt="0" MrtMethodFix="0" MrtMethodNone="1" MrtOn="1" MrtTZ="" MrtTime="00:00" SrtErt="0" SrtFix="0" SrtMethodErt="0" SrtMethodFix="0" SrtMethodNone="1"/>
+                    <result ChkRExec="0" RElseHalt="0" RElseIgn="0" RElseJPAbend="0" RExecFlag="0" RExecute="" RRepMTimes="0" RRepOn="0" RRepWait="0" RWhen=""/>
+                    <dynvalues>
+                        <dyntree/>
+                    </dynvalues>
+                    <CIT/>
+                    <calendars CCTypeAll="0" CCTypeExt="0" CCTypeNone="0" CCTypeOne="1" CaleOn="0"/>
+                    <postconditions>
+                        <PostCon>
+                            <conditions id="CONDITIONS"/>
+                        </PostCon>
+                    </postconditions>
+                </task>
+                <task Alias="" BranchType="0" Col="2" Lnr="2" OType="JOBS" Object="BACE.ETL.CAMPAIGN.MIGRATE_META_COMPANY" ParentAlias="" ParentObject="" Row="1" Text2="">
+                    <checkpoint RollbackFlag="1" RunPerPatch="0" RunPerTarget="0" TcpADays="0" TcpATime="00:00" TcpATimeTZ="" TcpExecute="" TcpOn="0" promptatgen="0" showprompt="0"/>
+                    <after ActFlg="1" AtimOn="0" ErlstStDays="0" ErlstStTime="00:00" ErlstStTimeTZ="" HoldFlg="0"/>
+                    <when ChkWhenExec="0" LtstEnd="0" LtstEndDays="0" LtstEndTime="00:00" LtstSt="0" LtstStDays="0" LtstStTime="00:00" LtstTimeTZ="" WCTypeAND="1" WCTypeOR="0" WElseA="0" WElseH="1" WElseS="0" WElseX="0" WhenExecute="" WtimOn="0"/>
+                    <preconditions>
+                        <PreCon>
+                            <conditions id="CONDITIONS"/>
+                        </PreCon>
+                    </preconditions>
+                    <predecessors>
+                        <pre BranchType="0" Lnr="1" PreLnr="1" When="ANY_OK" type="container"/>
+                    </predecessors>
+                    <runtime MrtCancel="0" MrtDays="0" MrtErt="0" MrtExecute="0" MrtExecuteObj="" MrtFix="0" MrtMethodDate="0" MrtMethodErt="0" MrtMethodFix="0" MrtMethodNone="1" MrtOn="1" MrtTZ="" MrtTime="00:00" SrtErt="0" SrtFix="0" SrtMethodErt="0" SrtMethodFix="0" SrtMethodNone="1"/>
+                    <result ChkRExec="0" RElseHalt="0" RElseIgn="0" RElseJPAbend="0" RExecFlag="0" RExecute="" RRepMTimes="0" RRepOn="0" RRepWait="0" RWhen=""/>
+                    <dynvalues>
+                        <dyntree>
+                            <node content="1" id="VALUE" name="Variablen" parent="" type="TASKVALUE">
+                                <VALUE state="2">
+                                    <Values/>
+                                    <Mode>0</Mode>
+                                </VALUE>
+                            </node>
+                            <node content="1" id="PVALUE" name="Parent Variablen" parent="" type="TASKVALUE">
+                                <VALUE state="2">
+                                    <Values/>
+                                    <Mode>2</Mode>
+                                </VALUE>
+                            </node>
+                            <node content="1" id="PRPTS" name="PromptSets" parent="" pref="1" type="PROMPTSET"/>
+                            <node content="0" id="PPRPTS" name="Parent-PromptSets" parent="" type="PPROMPTSET"/>
+                        </dyntree>
+                    </dynvalues>
+                    <CIT/>
+                    <calendars CCTypeAll="0" CCTypeExt="0" CCTypeNone="0" CCTypeOne="1" CaleOn="0"/>
+                    <postconditions>
+                        <PostCon>
+                            <conditions id="CONDITIONS">
+                                <condition active="1" id="STATUS" once="0" type="C" uiinfo="">
+                                    <params>
+                                        <param altview="0" name="XC_P01" type="V" value="ANY_OK"/>
+                                    </params>
+                                    <when active="1" id="STATUS" once="0" type="W" uiinfo=""/>
+                                    <else active="1" id="STATUS" once="0" type="E" uiinfo="">
+                                        <action active="1" id="EXECUTE OBJECT" once="0" type="A" uiinfo="">
+                                            <params>
+                                                <param altview="0" name="XC_P01" type="V" value="TUFIS.COBOL.FEHLER.MAIL"/>
+                                                <param altview="0" name="XC_P02" type="V" value="&lt;Parameters&gt;"/>
+                                                <param altview="0" name="XC_P03" type="V" value="##911011"/>
+                                                <param altview="0" name="XC_P04" type="V" value=""/>
+                                            </params>
+                                        </action>
+                                        <action active="1" id="BLOCK" once="0" type="A" uiinfo="">
+                                            <params>
+                                                <param altview="0" name="XC_P01" type="V" value="##38239"/>
+                                            </params>
+                                        </action>
+                                    </else>
+                                </condition>
+                            </conditions>
+                        </PostCon>
+                    </postconditions>
+                </task>
+                <task Alias="" BranchType="0" Col="7" Lnr="3" OType="&lt;END&gt;" Object="END" ParentAlias="" ParentObject="" Row="1" Text2="">
+                    <checkpoint RollbackFlag="0" RunPerPatch="0" RunPerTarget="0" TcpADays="0" TcpATime="00:00" TcpATimeTZ="" TcpExecute="" TcpOn="0" promptatgen="0" showprompt="0"/>
+                    <after ActFlg="1" AtimOn="0" ErlstStDays="0" ErlstStTime="00:00" ErlstStTimeTZ="" HoldFlg="0"/>
+                    <when ChkWhenExec="0" LtstEnd="0" LtstEndDays="0" LtstEndTime="00:00" LtstSt="0" LtstStDays="0" LtstStTime="00:00" LtstTimeTZ="" WCTypeAND="1" WCTypeOR="0" WElseA="0" WElseH="0" WElseS="1" WElseX="0" WhenExecute="" WtimOn="0"/>
+                    <preconditions>
+                        <PreCon>
+                            <conditions id="CONDITIONS"/>
+                        </PreCon>
+                    </preconditions>
+                    <predecessors/>
+                    <runtime MrtCancel="0" MrtDays="0" MrtErt="0" MrtExecute="0" MrtExecuteObj="" MrtFix="0" MrtMethodDate="0" MrtMethodErt="0" MrtMethodFix="0" MrtMethodNone="1" MrtOn="1" MrtTZ="" MrtTime="00:00" SrtErt="0" SrtFix="0" SrtMethodErt="0" SrtMethodFix="0" SrtMethodNone="1"/>
+                    <result ChkRExec="0" RElseHalt="0" RElseIgn="0" RElseJPAbend="0" RExecFlag="0" RExecute="" RRepMTimes="0" RRepOn="0" RRepWait="0" RWhen=""/>
+                    <dynvalues>
+                        <dyntree/>
+                    </dynvalues>
+                    <CIT/>
+                    <calendars CCTypeAll="0" CCTypeExt="0" CCTypeNone="0" CCTypeOne="1" CaleOn="0"/>
+                    <postconditions>
+                        <PostCon>
+                            <conditions id="CONDITIONS"/>
+                        </PostCon>
+                    </postconditions>
+                </task>
+                <OPTIONS/>
+            </JobpStruct>
+        </JOBP>
+        <RUNTIME state="1">
+            <MaxRetCode>0</MaxRetCode>
+            <MrcExecute/>
+            <MrcElseE>0</MrcElseE>
+            <FcstStatus>0||</FcstStatus>
+            <Ert>0</Ert>
+            <ErtMethodDef>1</ErtMethodDef>
+            <ErtMethodFix>0</ErtMethodFix>
+            <ErtFix>0</ErtFix>
+            <ErtDynMethod>2|Durchschnitt</ErtDynMethod>
+            <ErtMethodDyn>0</ErtMethodDyn>
+            <ErtCnt>0</ErtCnt>
+            <ErtCorr>0</ErtCorr>
+            <ErtIgn>0</ErtIgn>
+            <ErtIgnFlg>0</ErtIgnFlg>
+            <ErtMinCnt>0</ErtMinCnt>
+            <MrtMethodNone>1</MrtMethodNone>
+            <MrtMethodFix>0</MrtMethodFix>
+            <MrtFix>0</MrtFix>
+            <MrtMethodErt>0</MrtMethodErt>
+            <MrtErt>0</MrtErt>
+            <MrtMethodDate>0</MrtMethodDate>
+            <MrtDays>0</MrtDays>
+            <MrtTime>00:00</MrtTime>
+            <MrtTZ/>
+            <SrtMethodNone>1</SrtMethodNone>
+            <SrtMethodFix>0</SrtMethodFix>
+            <SrtFix>0</SrtFix>
+            <SrtMethodErt>0</SrtMethodErt>
+            <SrtErt>0</SrtErt>
+            <MrtCancel>0</MrtCancel>
+            <MrtExecute>0</MrtExecute>
+            <MrtExecuteObj/>
+        </RUNTIME>
+        <DYNVALUES state="1">
+            <dyntree>
+                <node content="1" id="VALUE" name="Variablen" parent="" type="VALUE">
+                    <VALUE state="1">
+                        <Values/>
+                        <Mode>2</Mode>
+                    </VALUE>
+                </node>
+            </dyntree>
+        </DYNVALUES>
+        <DEPLOYMENT state="1">
+            <DeploymentFlag>0</DeploymentFlag>
+            <WFTypeA>1</WFTypeA>
+            <WFTypeC>0</WFTypeC>
+            <AppName/>
+            <WFName/>
+            <ComponentName/>
+        </DEPLOYMENT>
+        <ROLLBACK state="1">
+            <RollbackFlag>0</RollbackFlag>
+            <CBackupObj/>
+            <CRollbackObj/>
+            <FBackupPath/>
+            <FDeleteBefore>0</FDeleteBefore>
+            <FInclSubDirs>0</FInclSubDirs>
+        </ROLLBACK>
+        <SCRIPT mode="1" state="1">
+            <MSCRI/>
+        </SCRIPT>
+        <DOCU_Docu state="1" type="text">
+            <DOC/>
+        </DOCU_Docu>
+    </JOBP>
+    <JOBI name="TUFIS.GLOBAL.POWERMART.START_TASK.UNIX.INC">
+        <HEADER state="1">
+            <Title>Script-Include für Powermart-Tasks</Title>
+            <ArchiveKey1/>
+            <ArchiveKey2/>
+            <OH_SubType/>
+        </HEADER>
+        <SCRIPT mode="1" state="1">
+            <MSCRI><![CDATA[!*** Profile laden, wenn noch nicht bekannt ***
+VARX=$PMHOME
+if test "$VARX" = ""
+then
+echo '.profile muss ausgeführt werden'
+. /tui/tufis/informatica/.profile
+else
+echo $VARX
+echo '.profile ist bekannt'
+fi
+!*****
+
+
+!*** Powermart Task  starten ***
+!*** Task kann sein: Session, Command Task, etc. ***
+
+echo '*** Starte Task &task aus &folder &workflow ***'
+cd $INFA_SHARED/bin
+startTask.sh &folder &workflow &task &waitflag
+RETCODE=$?
+
+
+if [ $RETCODE != 0 ]
+then
+  exit $RETCODE
+fi]]></MSCRI>
+        </SCRIPT>
+        <DOCU_Docu state="1" type="text">
+            <DOC><![CDATA[lädt .profile, um Umgebungsvariablen zu setzen
+startet Skript startTask.sh mit Parametern:
+
+  &folder    Name des Folders
+  &workflow  Name des Workflows im Folder
+  &task      Name der Task im Workflow im Folder
+  &waitflag 1=Job wartet Ende der Session ab, 0=Job startet Session nur an
+
+  Powermart-Returncode wird analysiert
+]]></DOC>
+        </DOCU_Docu>
+    </JOBI>
+    <JOBI name="TUFIS.COBOL.PRE_SCRIPT_PMSERVER.UNIX.INC">
+        <HEADER state="1">
+            <Title>Pre-Script für PowerMart-Sever-Job</Title>
+            <ArchiveKey1/>
+            <ArchiveKey2/>
+            <OH_SubType/>
+        </HEADER>
+        <SCRIPT mode="1" state="1">
+            <MSCRI><![CDATA[:IF GET_VAR("TUFIS.COBOL.SYS_UMFELD.VAR", PRODTEST)='PROD'
+:   PUT_ATT HOST = GET_VAR("TUFIS.COBOL.SYS_UMFELD.VAR", PMSERVER_PROD)
+:ELSE
+:   PUT_ATT HOST = GET_VAR("TUFIS.COBOL.SYS_UMFELD.VAR", PMSERVER_TEST)
+:ENDIF
+:INC TUFIS.GLOBAL.POWERMART.START_SESSION.PRE_SCRIPT.UNIX.INC]]></MSCRI>
+        </SCRIPT>
+        <DOCU_Docu state="1" type="text">
+            <DOC/>
+        </DOCU_Docu>
+    </JOBI>
+    <JOBI name="TUFIS.GLOBAL.POWERMART.START_SESSION.PRE_SCRIPT.UNIX.INC">
+        <HEADER state="1">
+            <Title>Pre-Script-Include für Powermart-Sessions</Title>
+            <ArchiveKey1/>
+            <ArchiveKey2/>
+            <OH_SubType/>
+        </HEADER>
+        <SCRIPT mode="1" state="1">
+            <MSCRI/>
+        </SCRIPT>
+        <DOCU_Docu state="1" type="text">
+            <DOC/>
+        </DOCU_Docu>
+    </JOBI>
+    <JOBI name="TUFIS.GLOBAL.POWERMART.REP_SESSIONSTATUS.UNIX.INC">
+        <HEADER state="1">
+            <Title>Abfrage gegen Repository bezgl. dem Status des letzten Sessionlaufes</Title>
+            <ArchiveKey1/>
+            <ArchiveKey2/>
+            <OH_SubType/>
+        </HEADER>
+        <SCRIPT mode="1" state="1">
+            <MSCRI><![CDATA[!*** Profile laden, wenn noch nicht bekannt ***
+VARX=$PMHOME
+if test "$VARX" = ""
+then
+echo '.profile muss ausgeführt werden'
+. /tui/tufis/informatica/.profile
+else
+echo $VARX
+echo '.profile ist bekannt'
+fi
+!*****
+
+echo '*** Hole Sessionstatus aus Repository ***'
+cd $INFA_SHARED/bin
+!****getSessionStatus_per_workflow.sh &folder &session
+!**** Paetsch 22.03.2004 alte Abfrage deaktiviert, da langsam und durch neue ersetzt
+sel_task_wf.sh &folder &session
+]]></MSCRI>
+        </SCRIPT>
+        <DOCU_Docu state="1" type="text">
+            <DOC><![CDATA[Liest den Status der letzten Läufe des aktuellen Tages für die Session aus dem Repository]]></DOC>
+        </DOCU_Docu>
+    </JOBI>
+    <JOBS_UNIX AttrType="UNIX" name="BACE.ETL.CAMPAIGN.MIGRATE_META_COMPANY">
+        <XHEADER state="1">
+            <Title>LOAD META COMPANY FROM CODIAC_KAMP</Title>
+            <ArchiveKey1>CUSTOMER_LAYER</ArchiveKey1>
+            <ArchiveKey2>S_4</ArchiveKey2>
+            <Active>1</Active>
+            <OH_SubType/>
+            <CustomAttributes KeyListID="0" dataRequestID="0"/>
+        </XHEADER>
+        <OUTPUTREG state="1">
+            <FileReg/>
+        </OUTPUTREG>
+        <SYNCREF state="1">
+            <Syncs/>
+        </SYNCREF>
+        <ATTR_JOBS state="1">
+            <Queue>CLIENT_QUEUE</Queue>
+            <StartType/>
+            <HostDst>|&lt;UNIX&gt;|HOST</HostDst>
+            <HostATTR_Type>UNIX</HostATTR_Type>
+            <CodeName/>
+            <Login>INFA</Login>
+            <IntAccount>65463</IntAccount>
+            <ExtRepDef>1</ExtRepDef>
+            <ExtRepAll>0</ExtRepAll>
+            <ExtRepNone>0</ExtRepNone>
+            <AutoDeactNo>0</AutoDeactNo>
+            <AutoDeact1ErrorFree>0</AutoDeact1ErrorFree>
+            <AutoDeactErrorFree>1</AutoDeactErrorFree>
+            <DeactWhen/>
+            <DeactDelay>0</DeactDelay>
+            <AutoDeactAlways>0</AutoDeactAlways>
+            <AttDialog>0</AttDialog>
+            <ActAtRun>0</ActAtRun>
+            <Consumption>0</Consumption>
+            <UC4Priority>0</UC4Priority>
+            <MaxParallel2>1</MaxParallel2>
+            <MpElse1>0</MpElse1>
+            <MpElse2>1</MpElse2>
+            <TZ/>
+        </ATTR_JOBS>
+        <ATTR_UNIX state="1">
+            <OutputDb>1</OutputDb>
+            <OutputDbErr>0</OutputDbErr>
+            <OutputFile>0</OutputFile>
+            <ShellScript>1</ShellScript>
+            <Command>0</Command>
+            <Priority>0</Priority>
+            <Shell>ksh</Shell>
+            <ShellOptions/>
+            <Com/>
+        </ATTR_UNIX>
+        <RUNTIME state="1">
+            <MaxRetCode>0</MaxRetCode>
+            <MrcExecute/>
+            <MrcElseE>0</MrcElseE>
+            <FcstStatus>0||</FcstStatus>
+            <Ert>16</Ert>
+            <ErtMethodDef>1</ErtMethodDef>
+            <ErtMethodFix>0</ErtMethodFix>
+            <ErtFix>0</ErtFix>
+            <ErtDynMethod>2|Durchschnitt</ErtDynMethod>
+            <ErtMethodDyn>0</ErtMethodDyn>
+            <ErtCnt>0</ErtCnt>
+            <ErtCorr>0</ErtCorr>
+            <ErtIgn>0</ErtIgn>
+            <ErtIgnFlg>0</ErtIgnFlg>
+            <ErtMinCnt>0</ErtMinCnt>
+            <MrtMethodNone>1</MrtMethodNone>
+            <MrtMethodFix>0</MrtMethodFix>
+            <MrtFix>0</MrtFix>
+            <MrtMethodErt>0</MrtMethodErt>
+            <MrtErt>0</MrtErt>
+            <MrtMethodDate>0</MrtMethodDate>
+            <MrtDays>0</MrtDays>
+            <MrtTime>00:00</MrtTime>
+            <MrtTZ/>
+            <SrtMethodNone>1</SrtMethodNone>
+            <SrtMethodFix>0</SrtMethodFix>
+            <SrtFix>0</SrtFix>
+            <SrtMethodErt>0</SrtMethodErt>
+            <SrtErt>0</SrtErt>
+            <MrtCancel>0</MrtCancel>
+            <MrtExecute>0</MrtExecute>
+            <MrtExecuteObj/>
+        </RUNTIME>
+        <DYNVALUES state="1">
+            <dyntree>
+                <node content="1" id="VALUE" name="Variablen" parent="" type="VALUE">
+                    <VALUE state="1">
+                        <Values/>
+                        <Mode>0</Mode>
+                    </VALUE>
+                </node>
+            </dyntree>
+        </DYNVALUES>
+        <ROLLBACK state="1">
+            <RollbackFlag>0</RollbackFlag>
+            <CBackupObj/>
+            <CRollbackObj/>
+            <FBackupPath/>
+            <FDeleteBefore>0</FDeleteBefore>
+            <FInclSubDirs>0</FInclSubDirs>
+        </ROLLBACK>
+        <PRE_SCRIPT mode="1" replacementmode="1" state="1">
+            <PSCRI><![CDATA[:INC TUFIS.COBOL.PRE_SCRIPT_PMSERVER.UNIX.INC]]></PSCRI>
+        </PRE_SCRIPT>
+        <SCRIPT mode="1" state="1">
+            <MSCRI><![CDATA[!*** Angaben zum Workflow Step for Step***
+
+!  gemeinsame Settings für den Workflow
+:set &folder = 'SYS_CAMPAIGN_CORE'
+:set &workflow = 'wf_migrate_and_load_KAMP_META_COMPANY'
+!Waitflag: 1=Prozess wartet bis Task beendet,  0=Prozess startet Task und beendet sich
+:set &waitflag = 1
+
+:RESTART S010, "load company meta-data"
+:set &task = 's_m_migrate_and_load_KAMP_META_COMPANY'
+:INC TUFIS.GLOBAL.POWERMART.START_TASK.UNIX.INC
+
+!gemeinsame Abfrage auf das Repository für alle Tasks des Workflow
+! Parameter &session heisst noch so aus Kompatibilitätsgründen
+:RESTART S500, "Get Stati für den Wf"
+:set &session = 'wf_migrate_and_load_KAMP_META_COMPANY'
+:INC TUFIS.GLOBAL.POWERMART.REP_SESSIONSTATUS.UNIX.INC]]></MSCRI>
+        </SCRIPT>
+        <OUTPUTSCAN state="1">
+            <Inherit>N</Inherit>
+            <filterobjects/>
+            <HostFsc/>
+            <LoginFsc/>
+        </OUTPUTSCAN>
+        <POST_SCRIPT mode="1" replacementmode="1" state="1">
+            <OSCRI/>
+        </POST_SCRIPT>
+        <DOCU_Docu state="1" type="text">
+            <DOC><![CDATA[not restartable
+
+Aenderungshistorie
+
+2019-01-30 stellin neuer Job
+
+]]></DOC>
+        </DOCU_Docu>
+    </JOBS_UNIX>
+</uc-export>

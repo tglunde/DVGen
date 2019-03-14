@@ -1,0 +1,2436 @@
+
+-------
+20/38/2019 15:38:58
+-------
+
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_ACTION_VW_HA (
+    ACTION_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    ACTION_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   MEASURE VARCHAR(50)
+         NOT NULL ,                   ACTION VARCHAR(50)
+         NOT NULL ,                   SUB_CAMPAIGN_NAME VARCHAR(50)
+        ,                   CHANNEL_CODE VARCHAR(50)
+        ,                   INITIATIVE_CODE VARCHAR(50)
+        ,                   ADVERTISING_DESIGN_CODE VARCHAR(50)
+        ,                   CONTACT_TYPE_CODE VARCHAR(50)
+        ,                   COST_UNIT VARCHAR(50)
+        ,                   COST_CENTER VARCHAR(50)
+        ,                   CAMPAIGN_SUB_PROGRAM_CODE VARCHAR(50)
+        ,                   EDITION_PLANNED INTEGER        ,                   DELIVERY_LETTERSHOP DATE        ,                    UNSUPPORTED TYPE DECIMAL        ,                   EDITION_FINAL INTEGER        ,                    UNSUPPORTED TYPE DECIMAL        ,                   CONTACT_DATE DATE        ,                   SELECTION_DATE DATE        )
+IN TS_CUSTOMER INDEX IN TS_CUSTOMER
+COMPRESS YES
+ ' (line 18): DB2 SQL Error: SQLCODE=-104, SQLSTATE=42601, SQLERRMC=DECIMAL;UNSUPPORTED TYPE;<table_element>, DRIVER=4.22.29
+
+-------
+20/41/2019 15:41:03
+-------
+
+Error executing '' (line 21): [jcc][10234][10927][4.22.29] SQL ohne Tokens übergeben. ERRORCODE=-4462, SQLSTATE=null
+
+-------
+20/42/2019 15:42:53
+-------
+
+Error executing '' (line 21): [jcc][10234][10927][4.22.29] SQL ohne Tokens übergeben. ERRORCODE=-4462, SQLSTATE=null
+
+-------
+20/44/2019 15:44:23
+-------
+
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_ACTION_VW_HA (
+    ACTION_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    ACTION_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   MEASURE VARCHAR(50)
+         NOT NULL ,                   ACTION VARCHAR(50)
+         NOT NULL ,                   SUB_CAMPAIGN_NAME VARCHAR(50)
+        ,                   CHANNEL_CODE VARCHAR(50)
+        ,                   INITIATIVE_CODE VARCHAR(50)
+        ,                   ADVERTISING_DESIGN_CODE VARCHAR(50)
+        ,                   CONTACT_TYPE_CODE VARCHAR(50)
+        ,                   COST_UNIT VARCHAR(50)
+        ,                   COST_CENTER VARCHAR(50)
+        ,                   CAMPAIGN_SUB_PROGRAM_CODE VARCHAR(50)
+        ,                   EDITION_PLANNED INTEGER        ,                   DELIVERY_LETTERSHOP DATE        ,                   CAMPAIGN_FIXED_COST DECIMAL(19,6)
+        ,                   EDITION_FINAL INTEGER        ,                   PARTNER_CONTRIBUTION DECIMAL(19,6)
+        ,                   CONTACT_DATE DATE        ,                   SELECTION_DATE DATE        )
+IN TS_CUSTOMER INDEX IN TS_CUSTOMERCOMPRESS YES ' (line 18): DB2 SQL Error: SQLCODE=-104, SQLSTATE=42601, SQLERRMC=YES;TS_CUSTOMERCOMPRESS;END-OF-STATEMENT, DRIVER=4.22.29
+
+-------
+20/44/2019 15:44:56
+-------
+
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_ACTION_VW_HA (
+    ACTION_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    ACTION_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   MEASURE VARCHAR(50)
+         NOT NULL ,                   ACTION VARCHAR(50)
+         NOT NULL ,                   SUB_CAMPAIGN_NAME VARCHAR(50)
+        ,                   CHANNEL_CODE VARCHAR(50)
+        ,                   INITIATIVE_CODE VARCHAR(50)
+        ,                   ADVERTISING_DESIGN_CODE VARCHAR(50)
+        ,                   CONTACT_TYPE_CODE VARCHAR(50)
+        ,                   COST_UNIT VARCHAR(50)
+        ,                   COST_CENTER VARCHAR(50)
+        ,                   CAMPAIGN_SUB_PROGRAM_CODE VARCHAR(50)
+        ,                   EDITION_PLANNED INTEGER        ,                   DELIVERY_LETTERSHOP DATE        ,                   CAMPAIGN_FIXED_COST DECIMAL(19,6)
+        ,                   EDITION_FINAL INTEGER        ,                   PARTNER_CONTRIBUTION DECIMAL(19,6)
+        ,                   CONTACT_DATE DATE        ,                   SELECTION_DATE DATE        )
+IN TS_CUSTOMER INDEX IN TS_CUSTOMER COMPRESS YES ' (line 18): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_ACTION_VW_HA;TABLE, DRIVER=4.22.29
+
+-------
+20/46/2019 15:46:08
+-------
+
+
+-------
+20/52/2019 15:52:34
+-------
+
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_ACTION_VW_HA (
+    ACTION_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    ACTION_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   MEASURE VARCHAR(50)
+         NOT NULL ,                   ACTION VARCHAR(50)
+         NOT NULL ,                   SUB_CAMPAIGN_NAME VARCHAR(50)
+        ,                   CHANNEL_CODE VARCHAR(50)
+        ,                   INITIATIVE_CODE VARCHAR(50)
+        ,                   ADVERTISING_DESIGN_CODE VARCHAR(50)
+        ,                   CONTACT_TYPE_CODE VARCHAR(50)
+        ,                   COST_UNIT VARCHAR(50)
+        ,                   COST_CENTER VARCHAR(50)
+        ,                   CAMPAIGN_SUB_PROGRAM_CODE VARCHAR(50)
+        ,                   EDITION_PLANNED INTEGER        ,                   DELIVERY_LETTERSHOP DATE        ,                   CAMPAIGN_FIXED_COST DECIMAL(19,6)
+        ,                   EDITION_FINAL INTEGER        ,                   PARTNER_CONTRIBUTION DECIMAL(19,6)
+        ,                   CONTACT_DATE DATE        ,                   SELECTION_DATE DATE        )
+IN TS_CUSTOMER INDEX IN TS_CUSTOMER COMPRESS YES ' (line 18): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_ACTION_VW_HA;TABLE, DRIVER=4.22.29
+
+-------
+20/54/2019 15:54:50
+-------
+
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_ACTION_VW_HA (
+    ACTION_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    ACTION_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   MEASURE VARCHAR(50)
+         NOT NULL ,                   ACTION VARCHAR(50)
+         NOT NULL ,                   SUB_CAMPAIGN_NAME VARCHAR(50)
+        ,                   CHANNEL_CODE VARCHAR(50)
+        ,                   INITIATIVE_CODE VARCHAR(50)
+        ,                   ADVERTISING_DESIGN_CODE VARCHAR(50)
+        ,                   CONTACT_TYPE_CODE VARCHAR(50)
+        ,                   COST_UNIT VARCHAR(50)
+        ,                   COST_CENTER VARCHAR(50)
+        ,                   CAMPAIGN_SUB_PROGRAM_CODE VARCHAR(50)
+        ,                   EDITION_PLANNED INTEGER        ,                   DELIVERY_LETTERSHOP DATE        ,                   CAMPAIGN_FIXED_COST DECIMAL(19,6)
+        ,                   EDITION_FINAL INTEGER        ,                   PARTNER_CONTRIBUTION DECIMAL(19,6)
+        ,                   CONTACT_DATE DATE        ,                   SELECTION_DATE DATE        )
+IN TS_CUSTOMER INDEX IN TS_CUSTOMER COMPRESS YES ' (line 18): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_ACTION_VW_HA;TABLE, DRIVER=4.22.29
+
+-------
+20/56/2019 15:56:28
+-------
+
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_ACTION_VW_HA (
+    ACTION_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    ACTION_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   MEASURE VARCHAR(50)
+         NOT NULL ,                   ACTION VARCHAR(50)
+         NOT NULL ,                   SUB_CAMPAIGN_NAME VARCHAR(50)
+        ,                   CHANNEL_CODE VARCHAR(50)
+        ,                   INITIATIVE_CODE VARCHAR(50)
+        ,                   ADVERTISING_DESIGN_CODE VARCHAR(50)
+        ,                   CONTACT_TYPE_CODE VARCHAR(50)
+        ,                   COST_UNIT VARCHAR(50)
+        ,                   COST_CENTER VARCHAR(50)
+        ,                   CAMPAIGN_SUB_PROGRAM_CODE VARCHAR(50)
+        ,                   EDITION_PLANNED INTEGER        ,                   DELIVERY_LETTERSHOP DATE        ,                   CAMPAIGN_FIXED_COST DECIMAL(19,6)
+        ,                   EDITION_FINAL INTEGER        ,                   PARTNER_CONTRIBUTION DECIMAL(19,6)
+        ,                   CONTACT_DATE DATE        ,                   SELECTION_DATE DATE        )
+IN TS_CUSTOMER INDEX IN TS_CUSTOMER COMPRESS YES ' (line 18): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_ACTION_VW_HA;TABLE, DRIVER=4.22.29
+
+-------
+20/00/2019 16:00:54
+-------
+
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_ACTION_VW_HA (
+    ACTION_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    ACTION_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   MEASURE VARCHAR(50)
+         NOT NULL ,                   ACTION VARCHAR(50)
+         NOT NULL ,                   SUB_CAMPAIGN_NAME VARCHAR(50)
+        ,                   CHANNEL_CODE VARCHAR(50)
+        ,                   INITIATIVE_CODE VARCHAR(50)
+        ,                   ADVERTISING_DESIGN_CODE VARCHAR(50)
+        ,                   CONTACT_TYPE_CODE VARCHAR(50)
+        ,                   COST_UNIT VARCHAR(50)
+        ,                   COST_CENTER VARCHAR(50)
+        ,                   CAMPAIGN_SUB_PROGRAM_CODE VARCHAR(50)
+        ,                   EDITION_PLANNED INTEGER        ,                   DELIVERY_LETTERSHOP DATE        ,                   CAMPAIGN_FIXED_COST DECIMAL(19,6)
+        ,                   EDITION_FINAL INTEGER        ,                   PARTNER_CONTRIBUTION DECIMAL(19,6)
+        ,                   CONTACT_DATE DATE        ,                   SELECTION_DATE DATE        )
+IN TS_CUSTOMER INDEX IN TS_CUSTOMER COMPRESS YES ' (line 18): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_ACTION_VW_HA;TABLE, DRIVER=4.22.29
+
+-------
+20/49/2019 16:49:20
+-------
+
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_ACTION_VW_HA (
+    ACTION_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    ACTION_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   MEASURE VARCHAR(50)
+         NOT NULL ,                   ACTION VARCHAR(50)
+         NOT NULL ,                   SUB_CAMPAIGN_NAME VARCHAR(50)
+        ,                   CHANNEL_CODE VARCHAR(50)
+        ,                   INITIATIVE_CODE VARCHAR(50)
+        ,                   ADVERTISING_DESIGN_CODE VARCHAR(50)
+        ,                   CONTACT_TYPE_CODE VARCHAR(50)
+        ,                   COST_UNIT VARCHAR(50)
+        ,                   COST_CENTER VARCHAR(50)
+        ,                   CAMPAIGN_SUB_PROGRAM_CODE VARCHAR(50)
+        ,                   EDITION_PLANNED INTEGER        ,                   DELIVERY_LETTERSHOP DATE        ,                   CAMPAIGN_FIXED_COST DECIMAL(19,6)
+        ,                   EDITION_FINAL INTEGER        ,                   PARTNER_CONTRIBUTION DECIMAL(19,6)
+        ,                   CONTACT_DATE DATE        ,                   SELECTION_DATE DATE        )
+IN TS_CUSTOMER INDEX IN TS_CUSTOMER COMPRESS YES ' (line 18): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_ACTION_VW_HA;TABLE, DRIVER=4.22.29
+
+-------
+20/31/2019 18:31:16
+-------
+
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_ACTION_VW_HA (
+    ACTION_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    ACTION_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   MEASURE VARCHAR(50)
+         NOT NULL ,                   ACTION VARCHAR(50)
+         NOT NULL ,                   SUB_CAMPAIGN_NAME VARCHAR(50)
+        ,                   CHANNEL_CODE VARCHAR(50)
+        ,                   INITIATIVE_CODE VARCHAR(50)
+        ,                   ADVERTISING_DESIGN_CODE VARCHAR(50)
+        ,                   CONTACT_TYPE_CODE VARCHAR(50)
+        ,                   COST_UNIT VARCHAR(50)
+        ,                   COST_CENTER VARCHAR(50)
+        ,                   CAMPAIGN_SUB_PROGRAM_CODE VARCHAR(50)
+        ,                   EDITION_PLANNED INTEGER        ,                   DELIVERY_LETTERSHOP DATE        ,                   CAMPAIGN_FIXED_COST DECIMAL(19,6)
+        ,                   EDITION_FINAL INTEGER        ,                   PARTNER_CONTRIBUTION DECIMAL(19,6)
+        ,                   CONTACT_DATE DATE        ,                   SELECTION_DATE DATE        )
+IN TS_CUSTOMER INDEX IN TS_CUSTOMER COMPRESS YES ' (line 18): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_ACTION_VW_HA;TABLE, DRIVER=4.22.29
+
+-------
+20/33/2019 18:33:26
+-------
+
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_ACTION_VW_HA (
+    ACTION_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    ACTION_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   MEASURE VARCHAR(50)
+         NOT NULL ,                   ACTION VARCHAR(50)
+         NOT NULL ,                   SUB_CAMPAIGN_NAME VARCHAR(50)
+        ,                   CHANNEL_CODE VARCHAR(50)
+        ,                   INITIATIVE_CODE VARCHAR(50)
+        ,                   ADVERTISING_DESIGN_CODE VARCHAR(50)
+        ,                   CONTACT_TYPE_CODE VARCHAR(50)
+        ,                   COST_UNIT VARCHAR(50)
+        ,                   COST_CENTER VARCHAR(50)
+        ,                   CAMPAIGN_SUB_PROGRAM_CODE VARCHAR(50)
+        ,                   EDITION_PLANNED INTEGER        ,                   DELIVERY_LETTERSHOP DATE        ,                   CAMPAIGN_FIXED_COST DECIMAL(19,6)
+        ,                   EDITION_FINAL INTEGER        ,                   PARTNER_CONTRIBUTION DECIMAL(19,6)
+        ,                   CONTACT_DATE DATE        ,                   SELECTION_DATE DATE        )
+IN TS_CUSTOMER INDEX IN TS_CUSTOMER COMPRESS YES ' (line 18): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_ACTION_VW_HA;TABLE, DRIVER=4.22.29
+
+-------
+20/34/2019 18:34:34
+-------
+
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_ACTION_VW_HA (
+    ACTION_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    ACTION_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   MEASURE VARCHAR(50)
+         NOT NULL ,                   ACTION VARCHAR(50)
+         NOT NULL ,                   SUB_CAMPAIGN_NAME VARCHAR(50)
+        ,                   CHANNEL_CODE VARCHAR(50)
+        ,                   INITIATIVE_CODE VARCHAR(50)
+        ,                   ADVERTISING_DESIGN_CODE VARCHAR(50)
+        ,                   CONTACT_TYPE_CODE VARCHAR(50)
+        ,                   COST_UNIT VARCHAR(50)
+        ,                   COST_CENTER VARCHAR(50)
+        ,                   CAMPAIGN_SUB_PROGRAM_CODE VARCHAR(50)
+        ,                   EDITION_PLANNED INTEGER        ,                   DELIVERY_LETTERSHOP DATE        ,                   CAMPAIGN_FIXED_COST DECIMAL(19,6)
+        ,                   EDITION_FINAL INTEGER        ,                   PARTNER_CONTRIBUTION DECIMAL(19,6)
+        ,                   CONTACT_DATE DATE        ,                   SELECTION_DATE DATE        )
+IN TS_CUSTOMER INDEX IN TS_CUSTOMER COMPRESS YES ' (line 18): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_ACTION_VW_HA;TABLE, DRIVER=4.22.29
+
+-------
+20/43/2019 18:43:06
+-------
+
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_ACTION_VW_HA (
+    ACTION_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    ACTION_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   MEASURE VARCHAR(50)
+         NOT NULL ,                   ACTION VARCHAR(50)
+         NOT NULL ,                   SUB_CAMPAIGN_NAME VARCHAR(50)
+        ,                   CHANNEL_CODE VARCHAR(50)
+        ,                   INITIATIVE_CODE VARCHAR(50)
+        ,                   ADVERTISING_DESIGN_CODE VARCHAR(50)
+        ,                   CONTACT_TYPE_CODE VARCHAR(50)
+        ,                   COST_UNIT VARCHAR(50)
+        ,                   COST_CENTER VARCHAR(50)
+        ,                   CAMPAIGN_SUB_PROGRAM_CODE VARCHAR(50)
+        ,                   EDITION_PLANNED INTEGER        ,                   DELIVERY_LETTERSHOP DATE        ,                   CAMPAIGN_FIXED_COST DECIMAL(19,6)
+        ,                   EDITION_FINAL INTEGER        ,                   PARTNER_CONTRIBUTION DECIMAL(19,6)
+        ,                   CONTACT_DATE DATE        ,                   SELECTION_DATE DATE        )
+IN TS_CUSTOMER INDEX IN TS_CUSTOMER COMPRESS YES ' (line 18): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_ACTION_VW_HA;TABLE, DRIVER=4.22.29
+
+-------
+20/47/2019 18:47:28
+-------
+
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_ACTION_VW_HA (
+    ACTION_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    ACTION_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   MEASURE VARCHAR(50)
+         NOT NULL ,                   ACTION VARCHAR(50)
+         NOT NULL ,                   SUB_CAMPAIGN_NAME VARCHAR(50)
+        ,                   CHANNEL_CODE VARCHAR(50)
+        ,                   INITIATIVE_CODE VARCHAR(50)
+        ,                   ADVERTISING_DESIGN_CODE VARCHAR(50)
+        ,                   CONTACT_TYPE_CODE VARCHAR(50)
+        ,                   COST_UNIT VARCHAR(50)
+        ,                   COST_CENTER VARCHAR(50)
+        ,                   CAMPAIGN_SUB_PROGRAM_CODE VARCHAR(50)
+        ,                   EDITION_PLANNED INTEGER        ,                   DELIVERY_LETTERSHOP DATE        ,                   CAMPAIGN_FIXED_COST DECIMAL(19,6)
+        ,                   EDITION_FINAL INTEGER        ,                   PARTNER_CONTRIBUTION DECIMAL(19,6)
+        ,                   CONTACT_DATE DATE        ,                   SELECTION_DATE DATE        )
+IN TS_CUSTOMER INDEX IN TS_CUSTOMER COMPRESS YES ' (line 18): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_ACTION_VW_HA;TABLE, DRIVER=4.22.29
+
+-------
+21/33/2019 07:33:24
+-------
+
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_ACTION_VW_HA (
+    ACTION_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    ACTION_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   MEASURE VARCHAR(50)
+         NOT NULL ,                   ACTION VARCHAR(50)
+         NOT NULL ,                   SUB_CAMPAIGN_NAME VARCHAR(50)
+        ,                   CHANNEL_CODE VARCHAR(50)
+        ,                   INITIATIVE_CODE VARCHAR(50)
+        ,                   ADVERTISING_DESIGN_CODE VARCHAR(50)
+        ,                   CONTACT_TYPE_CODE VARCHAR(50)
+        ,                   COST_UNIT VARCHAR(50)
+        ,                   COST_CENTER VARCHAR(50)
+        ,                   CAMPAIGN_SUB_PROGRAM_CODE VARCHAR(50)
+        ,                   EDITION_PLANNED INTEGER        ,                   DELIVERY_LETTERSHOP DATE        ,                   CAMPAIGN_FIXED_COST DECIMAL(19,6)
+        ,                   EDITION_FINAL INTEGER        ,                   PARTNER_CONTRIBUTION DECIMAL(19,6)
+        ,                   CONTACT_DATE DATE        ,                   SELECTION_DATE DATE        )
+IN TS_CUSTOMER INDEX IN TS_CUSTOMER COMPRESS YES ' (line 19): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_ACTION_VW_HA;TABLE, DRIVER=4.22.29
+
+-------
+21/36/2019 07:36:17
+-------
+
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_ACTION_VW_R (
+                   MEASURE VARCHAR(50)
+         NOT NULL ,                   ACTION VARCHAR(50)
+         NOT NULL ,                   SUB_CAMPAIGN_NAME VARCHAR(50)
+        ,                   CHANNEL_CODE VARCHAR(50)
+        ,                   INITIATIVE_CODE VARCHAR(50)
+        ,                   ADVERTISING_DESIGN_CODE VARCHAR(50)
+        ,                   CONTACT_TYPE_CODE VARCHAR(50)
+        ,                   COST_UNIT VARCHAR(50)
+        ,                   COST_CENTER VARCHAR(50)
+        ,                   CAMPAIGN_SUB_PROGRAM_CODE VARCHAR(50)
+        ,                   EDITION_PLANNED INTEGER        ,                   DELIVERY_LETTERSHOP DATE        ,                   CAMPAIGN_FIXED_COST DECIMAL(19,6)
+        ,                   EDITION_FINAL INTEGER        ,                   PARTNER_CONTRIBUTION DECIMAL(19,6)
+        ,                   CONTACT_DATE DATE        ,                   SELECTION_DATE DATE        )
+IN TS_CUSTOMER INDEX IN TS_CUSTOMER COMPRESS YES ' (line 15): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_ACTION_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_ADVERTISED_OFFERS_VW_R (
+                   MEASURE VARCHAR(50)
+         NOT NULL ,                   ACTION VARCHAR(50)
+         NOT NULL ,                   HOTEL_CODE VARCHAR(20)
+         NOT NULL ,                   ADVERTISING_KIND_CODE VARCHAR(4)
+        ,                   ADVERTISING_DESC VARCHAR(100)
+        ,                   OFFER_NO VARCHAR(2)
+        ,                   GIATAID INTEGER        ,                   OPERATOR VARCHAR(25)
+        ,                   SCOPE VARCHAR(25)
+        ,                   STARTDATE DATE        ,                   ENDDATE DATE        ,                   DURATION SMALLINT        ,                   BOARDTYPE VARCHAR(10)
+        ,                   ROOMTYPE VARCHAR(25)
+        ,                   COOPID VARCHAR(255)
+        ,                   LIST_PRICE DECIMAL(19,6)
+        )
+IN TS_CUSTOMER INDEX IN TS_CUSTOMER COMPRESS YES ' (line 15): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_ADVERTISED_OFFERS_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_ADVERTISING_DESIGN_VW_R (
+                   ADVERTISING_DESIGN_CODE VARCHAR(50)
+         NOT NULL ,                   ADVERTISING_DESIGN_DESC VARCHAR(250)
+        ,                   TIMESTSAMP_INSERT TIMESTAMP         NOT NULL )
+IN TS_CUSTOMER INDEX IN TS_CUSTOMER COMPRESS YES ' (line 5): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_ADVERTISING_DESIGN_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.CODIAC_AKTION_KUNDERETURN_R (
+                   Massnahme INTEGER         NOT NULL ,                   Aktion INTEGER         NOT NULL ,                   KD_KundenID VARCHAR(30)
+         NOT NULL ,                   ResponseArt_Code VARCHAR(12)
+         NOT NULL ,                   Datum_Erfassung DATE        ,                   Grund_Bezeichnung VARCHAR(50)
+        )
+IN TS_CUSTOMER INDEX IN TS_CUSTOMER COMPRESS YES ' (line 6): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.CODIAC_AKTION_KUNDERETURN_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.CODIAC_AKTION_KUNDE_R (
+                   Massnahme INTEGER         NOT NULL ,                   Aktion INTEGER         NOT NULL ,                   KD_KundenID VARCHAR(30)
+         NOT NULL ,                   Kundenstatus_Code VARCHAR(4)
+        ,                   ResponseArt_Code VARCHAR(12)
+        ,                   ResponseSperrung_Code VARCHAR(4)
+        ,                   Testgruppe SMALLINT        ,                   coupon_category VARCHAR(250)
+        ,                   coupon_token VARCHAR(250)
+        ,                   Linkart INTEGER        ,                   Postauslieferungstermin TIMESTAMP        ,                   Gruppe INTEGER        ,                   Gruppe_Bezeichnung VARCHAR(100)
+        ,                   Buero_SRC_ID_Besitzer VARCHAR(10)
+        ,                   Buero_SRC_ID_Quelle VARCHAR(10)
+        ,                   Ansprache_Brief SMALLINT         NOT NULL ,                   Ansprache_Email SMALLINT         NOT NULL ,                   Ansprache_Telefon SMALLINT         NOT NULL )
+IN TS_CUSTOMER INDEX IN TS_CUSTOMER COMPRESS YES ' (line 12): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.CODIAC_AKTION_KUNDE_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.CODIAC_AKTION_KUNDE_UE_R (
+                   Massnahme INTEGER         NOT NULL ,                   Aktion INTEGER         NOT NULL ,                   ind_Permissions_ID VARCHAR(255)
+         NOT NULL ,                   Kundenstatus_Code VARCHAR(4)
+        ,                   ResponseArt_Code VARCHAR(12)
+        ,                   ResponseSperrung_Code VARCHAR(4)
+        ,                   Testgruppe SMALLINT        ,                   coupon_category VARCHAR(250)
+        ,                   coupon_token VARCHAR(250)
+        ,                   Linkart INTEGER        ,                   Postauslieferungstermin TIMESTAMP        ,                   Gruppe INTEGER        ,                   Gruppe_Bezeichnung VARCHAR(100)
+        ,                   Buero_SRC_ID_Besitzer VARCHAR(10)
+        ,                   Buero_SRC_ID_Quelle VARCHAR(10)
+        ,                   Ansprache_Brief SMALLINT         NOT NULL ,                   Ansprache_Email SMALLINT         NOT NULL ,                   Ansprache_Telefon SMALLINT         NOT NULL )
+IN TS_CUSTOMER INDEX IN TS_CUSTOMER COMPRESS YES ' (line 12): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.CODIAC_AKTION_KUNDE_UE_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_CAMPAIGN_SUB_PROGRAM_VW_R (
+                   CAMPAIGN_SUB_PROGRAM_CODE VARCHAR(50)
+         NOT NULL ,                   CAMPAIGN_SUB_PROGRAM_DESC VARCHAR(250)
+        ,                   ACTIVE_FLAG VARCHAR(1)
+         NOT NULL )
+IN TS_CUSTOMER INDEX IN TS_CUSTOMER COMPRESS YES ' (line 6): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_CAMPAIGN_SUB_PROGRAM_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_CHANNEL_VW_R (
+                   CHANNEL_CODE VARCHAR(50)
+         NOT NULL ,                   CHANNEL_DESC VARCHAR(250)
+        )
+IN TS_CUSTOMER INDEX IN TS_CUSTOMER COMPRESS YES ' (line 5): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_CHANNEL_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_COMPANY_VW_R (
+                   COMPANY_CODE VARCHAR(50)
+         NOT NULL ,                   COMPANY VARCHAR(250)
+        )
+IN TS_CUSTOMER INDEX IN TS_CUSTOMER COMPRESS YES ' (line 5): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_COMPANY_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_CONTACT_PERSON_VW_R (
+                   MEASURE VARCHAR(50)
+         NOT NULL ,                   ACTION VARCHAR(50)
+         NOT NULL ,                   PERSON_CODE VARCHAR(50)
+         NOT NULL ,                   COMPANY_CODE VARCHAR(50)
+         NOT NULL ,                   FUNCTION_CODE VARCHAR(50)
+         NOT NULL )
+IN TS_CUSTOMER INDEX IN TS_CUSTOMER COMPRESS YES ' (line 8): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_CONTACT_PERSON_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_CONTACT_TYPE_VW_R (
+                   CONTACT_TYPE_CODE VARCHAR(50)
+         NOT NULL ,                   CONTACT_TYPE VARCHAR(50)
+        ,                   BOOKING_ASSISTED SMALLINT        ,                   BOOKING_DELTA SMALLINT        ,                   ANCILLARY_ASSISTED SMALLINT        ,                   ANCILLARY_DELTA SMALLINT        )
+IN TS_CUSTOMER INDEX IN TS_CUSTOMER COMPRESS YES ' (line 5): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_CONTACT_TYPE_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.CODIAC_EMAIL_R (
+                   Massnahme INTEGER         NOT NULL ,                   Aktion INTEGER         NOT NULL ,                   KD_KundenID VARCHAR(30)
+         NOT NULL ,                   MT_Mitglieds_ID BIGINT         NOT NULL ,                   ind_Permissions_ID VARCHAR(255)
+         NOT NULL ,                   Versandzeitpunkt TIMESTAMP        ,                   Versender VARCHAR(100)
+        ,                   broadmail_Responsekategorie VARCHAR(100)
+        ,                   Mailing_ID BIGINT        ,                   Mandanten_ID BIGINT        ,                   Mailinglayout_Bezeichnung VARCHAR(255)
+        ,                   Oeffnungsklick SMALLINT        ,                   Oeffnungszeitpunkt TIMESTAMP        ,                   Oeffnungs_ID INTEGER         NOT NULL ,                   Mailing_ID_Oeffnung BIGINT        ,                   Ausloesungszeitpunkt TIMESTAMP        ,                   Linkoeffnungs_ID INTEGER         NOT NULL ,                   Mailing_ID_Link BIGINT        ,                   Mailinglink_ID BIGINT        )
+IN TS_CUSTOMER INDEX IN TS_CUSTOMER COMPRESS YES ' (line 8): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.CODIAC_EMAIL_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.CODIAC_EMAIL_UE_R (
+                   Massnahme INTEGER         NOT NULL ,                   Aktion INTEGER         NOT NULL ,                   ind_Permissions_ID VARCHAR(255)
+         NOT NULL ,                   Versandzeitpunkt TIMESTAMP        ,                   Versender VARCHAR(100)
+        ,                   Mailing_ID BIGINT        ,                   Mandanten_ID BIGINT        ,                   Mailinglayout_Bezeichnung VARCHAR(255)
+        ,                   Oeffnungsklick SMALLINT        ,                   Oeffnungszeitpunkt TIMESTAMP        ,                   Oeffnungs_ID INTEGER         NOT NULL ,                   Mailing_ID_Oeffnung BIGINT        ,                   Ausloesungszeitpunkt TIMESTAMP        ,                   Linkoeffnungs_ID INTEGER         NOT NULL ,                   Mailing_ID_Link BIGINT        ,                   Mailinglink_ID BIGINT        )
+IN TS_CUSTOMER INDEX IN TS_CUSTOMER COMPRESS YES ' (line 6): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.CODIAC_EMAIL_UE_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_FUNCTION_VW_R (
+                   FUNCTION_CODE VARCHAR(50)
+         NOT NULL ,                   FUNCTION VARCHAR(250)
+        ,                   FUNCTION_TYPE VARCHAR(50)
+        )
+IN TS_CUSTOMER INDEX IN TS_CUSTOMER COMPRESS YES ' (line 6): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_FUNCTION_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_INITIATIVE_VW_R (
+                   INITIATIVE_CODE VARCHAR(50)
+         NOT NULL ,                   INITIATIVE_DESC VARCHAR(250)
+        )
+IN TS_CUSTOMER INDEX IN TS_CUSTOMER COMPRESS YES ' (line 5): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_INITIATIVE_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_LEGAL_ENTITY_VW_R (
+                   LEGAL_ENTITY_CODE VARCHAR(50)
+         NOT NULL ,                   LEGAL_ENTITY_ID VARCHAR(50)
+        ,                   LEGAL_ENTITY_DESC VARCHAR(50)
+        )
+IN TS_CUSTOMER INDEX IN TS_CUSTOMER COMPRESS YES ' (line 6): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_LEGAL_ENTITY_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_MEASURE_VW_R (
+                   MEASURE VARCHAR(50)
+         NOT NULL ,                   CAMPAIGN_NAME VARCHAR(250)
+         NOT NULL ,                   CAMPAIGN_EFFECTIVE_DATE DATE        ,                   CAMPAIGN_EXPIRATION_DATE DATE        ,                   LEGAL_ENTITY_CODE VARCHAR(50)
+        ,                   SELECTION_SYSTEM VARCHAR(50)
+        ,                   CAMPAIGNSK BIGINT        )
+IN TS_CUSTOMER INDEX IN TS_CUSTOMER COMPRESS YES ' (line 7): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_MEASURE_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_PERSON_VW_R (
+                   PERSON_CODE VARCHAR(50)
+         NOT NULL ,                   COMPANY_CODE VARCHAR(50)
+         NOT NULL ,                   FORENAME VARCHAR(250)
+        ,                   SURENAME VARCHAR(250)
+        ,                   PHONE VARCHAR(120)
+        ,                   EMAIL VARCHAR(320)
+        ,                   FUNCTION_CODE VARCHAR(50)
+        )
+IN TS_CUSTOMER INDEX IN TS_CUSTOMER COMPRESS YES ' (line 10): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_PERSON_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_RESYNC_CONFIG_VW_R (
+                   TABLE_NAME VARCHAR(30)
+         NOT NULL ,                   LAST_RUN TIMESTAMP        )
+IN TS_CUSTOMER INDEX IN TS_CUSTOMER COMPRESS YES ' (line 4): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_RESYNC_CONFIG_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_USER_VW_R (
+                   USERNAME VARCHAR(50)
+         NOT NULL ,                   FIRST_LASTNAME VARCHAR(200)
+         NOT NULL ,                   PERMISSIONS INTEGER        )
+IN TS_CUSTOMER INDEX IN TS_CUSTOMER COMPRESS YES ' (line 5): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_USER_VW_R;TABLE, DRIVER=4.22.29
+
+-------
+27/50/2019 13:50:51
+-------
+
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_ACTION_VW_HA (
+    ACTION_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    ACTION_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   MEASURE VARCHAR(50)
+         NOT NULL ,                   ACTION VARCHAR(50)
+         NOT NULL ,                   SUB_CAMPAIGN_NAME VARCHAR(50)
+        ,                   CHANNEL_CODE VARCHAR(50)
+        ,                   INITIATIVE_CODE VARCHAR(50)
+        ,                   ADVERTISING_DESIGN_CODE VARCHAR(50)
+        ,                   CONTACT_TYPE_CODE VARCHAR(50)
+        ,                   COST_UNIT VARCHAR(50)
+        ,                   COST_CENTER VARCHAR(50)
+        ,                   CAMPAIGN_SUB_PROGRAM_CODE VARCHAR(50)
+        ,                   EDITION_PLANNED INTEGER        ,                   DELIVERY_LETTERSHOP DATE        ,                   CAMPAIGN_FIXED_COST DECIMAL(19,6)
+        ,                   EDITION_FINAL INTEGER        ,                   PARTNER_CONTRIBUTION DECIMAL(19,6)
+        ,                   CONTACT_DATE DATE        ,                   SELECTION_DATE DATE        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 19): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_ACTION_VW_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_ACTION_VW_R (
+                   MEASURE VARCHAR(50)
+         NOT NULL ,                   ACTION VARCHAR(50)
+         NOT NULL ,                   SUB_CAMPAIGN_NAME VARCHAR(50)
+        ,                   CHANNEL_CODE VARCHAR(50)
+        ,                   INITIATIVE_CODE VARCHAR(50)
+        ,                   ADVERTISING_DESIGN_CODE VARCHAR(50)
+        ,                   CONTACT_TYPE_CODE VARCHAR(50)
+        ,                   COST_UNIT VARCHAR(50)
+        ,                   COST_CENTER VARCHAR(50)
+        ,                   CAMPAIGN_SUB_PROGRAM_CODE VARCHAR(50)
+        ,                   EDITION_PLANNED INTEGER        ,                   DELIVERY_LETTERSHOP DATE        ,                   CAMPAIGN_FIXED_COST DECIMAL(19,6)
+        ,                   EDITION_FINAL INTEGER        ,                   PARTNER_CONTRIBUTION DECIMAL(19,6)
+        ,                   CONTACT_DATE DATE        ,                   SELECTION_DATE DATE        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 15): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_ACTION_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_ADVERTISED_OFFERS_VW_HA (
+    ADVERTISED_OFFERS_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    ADVERTISED_OFFERS_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   MEASURE VARCHAR(50)
+         NOT NULL ,                   ACTION VARCHAR(50)
+         NOT NULL ,                   HOTEL_CODE VARCHAR(20)
+         NOT NULL ,                   ADVERTISING_KIND_CODE VARCHAR(4)
+        ,                   ADVERTISING_DESC VARCHAR(100)
+        ,                   OFFER_NO VARCHAR(2)
+        ,                   GIATAID INTEGER        ,                   OPERATOR VARCHAR(25)
+        ,                   SCOPE VARCHAR(25)
+        ,                   STARTDATE DATE        ,                   ENDDATE DATE        ,                   DURATION SMALLINT        ,                   BOARDTYPE VARCHAR(10)
+        ,                   ROOMTYPE VARCHAR(25)
+        ,                   COOPID VARCHAR(255)
+        ,                   LIST_PRICE DECIMAL(19,6)
+        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 19): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_ADVERTISED_OFFERS_VW_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_ADVERTISED_OFFERS_VW_R (
+                   MEASURE VARCHAR(50)
+         NOT NULL ,                   ACTION VARCHAR(50)
+         NOT NULL ,                   HOTEL_CODE VARCHAR(20)
+         NOT NULL ,                   ADVERTISING_KIND_CODE VARCHAR(4)
+        ,                   ADVERTISING_DESC VARCHAR(100)
+        ,                   OFFER_NO VARCHAR(2)
+        ,                   GIATAID INTEGER        ,                   OPERATOR VARCHAR(25)
+        ,                   SCOPE VARCHAR(25)
+        ,                   STARTDATE DATE        ,                   ENDDATE DATE        ,                   DURATION SMALLINT        ,                   BOARDTYPE VARCHAR(10)
+        ,                   ROOMTYPE VARCHAR(25)
+        ,                   COOPID VARCHAR(255)
+        ,                   LIST_PRICE DECIMAL(19,6)
+        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 15): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_ADVERTISED_OFFERS_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_ADVERTISING_DESIGN_VW_HA (
+    ADVERTISING_DESIGN_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    ADVERTISING_DESIGN_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   ADVERTISING_DESIGN_CODE VARCHAR(50)
+         NOT NULL ,                   ADVERTISING_DESIGN_DESC VARCHAR(250)
+        ,                   TIMESTSAMP_INSERT TIMESTAMP         NOT NULL )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 9): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_ADVERTISING_DESIGN_VW_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_ADVERTISING_DESIGN_VW_R (
+                   ADVERTISING_DESIGN_CODE VARCHAR(50)
+         NOT NULL ,                   ADVERTISING_DESIGN_DESC VARCHAR(250)
+        ,                   TIMESTSAMP_INSERT TIMESTAMP         NOT NULL )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 5): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_ADVERTISING_DESIGN_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.CODIAC_AKTION_KUNDERETURN_HA (
+    AKTION_KUNDERETURN_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    AKTION_KUNDERETURN_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   Massnahme INTEGER         NOT NULL ,                   Aktion INTEGER         NOT NULL ,                   KD_KundenID VARCHAR(30)
+         NOT NULL ,                   ResponseArt_Code VARCHAR(12)
+         NOT NULL ,                   Datum_Erfassung DATE        ,                   Grund_Bezeichnung VARCHAR(50)
+        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 10): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.CODIAC_AKTION_KUNDERETURN_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.CODIAC_AKTION_KUNDERETURN_R (
+                   Massnahme INTEGER         NOT NULL ,                   Aktion INTEGER         NOT NULL ,                   KD_KundenID VARCHAR(30)
+         NOT NULL ,                   ResponseArt_Code VARCHAR(12)
+         NOT NULL ,                   Datum_Erfassung DATE        ,                   Grund_Bezeichnung VARCHAR(50)
+        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 6): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.CODIAC_AKTION_KUNDERETURN_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.CODIAC_AKTION_KUNDE_HA (
+    AKTION_KUNDE_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    AKTION_KUNDE_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   Massnahme INTEGER         NOT NULL ,                   Aktion INTEGER         NOT NULL ,                   KD_KundenID VARCHAR(30)
+         NOT NULL ,                   Kundenstatus_Code VARCHAR(4)
+        ,                   ResponseArt_Code VARCHAR(12)
+        ,                   ResponseSperrung_Code VARCHAR(4)
+        ,                   Testgruppe SMALLINT        ,                   coupon_category VARCHAR(250)
+        ,                   coupon_token VARCHAR(250)
+        ,                   Linkart INTEGER        ,                   Postauslieferungstermin TIMESTAMP        ,                   Gruppe INTEGER        ,                   Gruppe_Bezeichnung VARCHAR(100)
+        ,                   Buero_SRC_ID_Besitzer VARCHAR(10)
+        ,                   Buero_SRC_ID_Quelle VARCHAR(10)
+        ,                   Ansprache_Brief SMALLINT         NOT NULL ,                   Ansprache_Email SMALLINT         NOT NULL ,                   Ansprache_Telefon SMALLINT         NOT NULL )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 16): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.CODIAC_AKTION_KUNDE_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.CODIAC_AKTION_KUNDE_R (
+                   Massnahme INTEGER         NOT NULL ,                   Aktion INTEGER         NOT NULL ,                   KD_KundenID VARCHAR(30)
+         NOT NULL ,                   Kundenstatus_Code VARCHAR(4)
+        ,                   ResponseArt_Code VARCHAR(12)
+        ,                   ResponseSperrung_Code VARCHAR(4)
+        ,                   Testgruppe SMALLINT        ,                   coupon_category VARCHAR(250)
+        ,                   coupon_token VARCHAR(250)
+        ,                   Linkart INTEGER        ,                   Postauslieferungstermin TIMESTAMP        ,                   Gruppe INTEGER        ,                   Gruppe_Bezeichnung VARCHAR(100)
+        ,                   Buero_SRC_ID_Besitzer VARCHAR(10)
+        ,                   Buero_SRC_ID_Quelle VARCHAR(10)
+        ,                   Ansprache_Brief SMALLINT         NOT NULL ,                   Ansprache_Email SMALLINT         NOT NULL ,                   Ansprache_Telefon SMALLINT         NOT NULL )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 12): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.CODIAC_AKTION_KUNDE_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.CODIAC_AKTION_KUNDE_UE_HA (
+    AKTION_KUNDE_UE_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    AKTION_KUNDE_UE_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   Massnahme INTEGER         NOT NULL ,                   Aktion INTEGER         NOT NULL ,                   ind_Permissions_ID VARCHAR(255)
+         NOT NULL ,                   Kundenstatus_Code VARCHAR(4)
+        ,                   ResponseArt_Code VARCHAR(12)
+        ,                   ResponseSperrung_Code VARCHAR(4)
+        ,                   Testgruppe SMALLINT        ,                   coupon_category VARCHAR(250)
+        ,                   coupon_token VARCHAR(250)
+        ,                   Linkart INTEGER        ,                   Postauslieferungstermin TIMESTAMP        ,                   Gruppe INTEGER        ,                   Gruppe_Bezeichnung VARCHAR(100)
+        ,                   Buero_SRC_ID_Besitzer VARCHAR(10)
+        ,                   Buero_SRC_ID_Quelle VARCHAR(10)
+        ,                   Ansprache_Brief SMALLINT         NOT NULL ,                   Ansprache_Email SMALLINT         NOT NULL ,                   Ansprache_Telefon SMALLINT         NOT NULL )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 16): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.CODIAC_AKTION_KUNDE_UE_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.CODIAC_AKTION_KUNDE_UE_R (
+                   Massnahme INTEGER         NOT NULL ,                   Aktion INTEGER         NOT NULL ,                   ind_Permissions_ID VARCHAR(255)
+         NOT NULL ,                   Kundenstatus_Code VARCHAR(4)
+        ,                   ResponseArt_Code VARCHAR(12)
+        ,                   ResponseSperrung_Code VARCHAR(4)
+        ,                   Testgruppe SMALLINT        ,                   coupon_category VARCHAR(250)
+        ,                   coupon_token VARCHAR(250)
+        ,                   Linkart INTEGER        ,                   Postauslieferungstermin TIMESTAMP        ,                   Gruppe INTEGER        ,                   Gruppe_Bezeichnung VARCHAR(100)
+        ,                   Buero_SRC_ID_Besitzer VARCHAR(10)
+        ,                   Buero_SRC_ID_Quelle VARCHAR(10)
+        ,                   Ansprache_Brief SMALLINT         NOT NULL ,                   Ansprache_Email SMALLINT         NOT NULL ,                   Ansprache_Telefon SMALLINT         NOT NULL )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 12): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.CODIAC_AKTION_KUNDE_UE_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_CAMPAIGN_SUB_PROGRAM_VW_HA (
+    CAMPAIGN_SUB_PROGRAM_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    CAMPAIGN_SUB_PROGRAM_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   CAMPAIGN_SUB_PROGRAM_CODE VARCHAR(50)
+         NOT NULL ,                   CAMPAIGN_SUB_PROGRAM_DESC VARCHAR(250)
+        ,                   ACTIVE_FLAG VARCHAR(1)
+         NOT NULL )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 10): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_CAMPAIGN_SUB_PROGRAM_VW_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_CAMPAIGN_SUB_PROGRAM_VW_R (
+                   CAMPAIGN_SUB_PROGRAM_CODE VARCHAR(50)
+         NOT NULL ,                   CAMPAIGN_SUB_PROGRAM_DESC VARCHAR(250)
+        ,                   ACTIVE_FLAG VARCHAR(1)
+         NOT NULL )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 6): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_CAMPAIGN_SUB_PROGRAM_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_CHANNEL_VW_HA (
+    CHANNEL_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    CHANNEL_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   CHANNEL_CODE VARCHAR(50)
+         NOT NULL ,                   CHANNEL_DESC VARCHAR(250)
+        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 9): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_CHANNEL_VW_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_CHANNEL_VW_R (
+                   CHANNEL_CODE VARCHAR(50)
+         NOT NULL ,                   CHANNEL_DESC VARCHAR(250)
+        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 5): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_CHANNEL_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_COMPANY_VW_HA (
+    COMPANY_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    COMPANY_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   COMPANY_CODE VARCHAR(50)
+         NOT NULL ,                   COMPANY VARCHAR(250)
+        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 9): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_COMPANY_VW_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_COMPANY_VW_R (
+                   COMPANY_CODE VARCHAR(50)
+         NOT NULL ,                   COMPANY VARCHAR(250)
+        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 5): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_COMPANY_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_CONTACT_PERSON_VW_HA (
+    CONTACT_PERSON_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    CONTACT_PERSON_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   MEASURE VARCHAR(50)
+         NOT NULL ,                   ACTION VARCHAR(50)
+         NOT NULL ,                   PERSON_CODE VARCHAR(50)
+         NOT NULL ,                   COMPANY_CODE VARCHAR(50)
+         NOT NULL ,                   FUNCTION_CODE VARCHAR(50)
+         NOT NULL )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 12): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_CONTACT_PERSON_VW_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_CONTACT_PERSON_VW_R (
+                   MEASURE VARCHAR(50)
+         NOT NULL ,                   ACTION VARCHAR(50)
+         NOT NULL ,                   PERSON_CODE VARCHAR(50)
+         NOT NULL ,                   COMPANY_CODE VARCHAR(50)
+         NOT NULL ,                   FUNCTION_CODE VARCHAR(50)
+         NOT NULL )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 8): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_CONTACT_PERSON_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_CONTACT_TYPE_VW_HA (
+    CONTACT_TYPE_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    CONTACT_TYPE_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   CONTACT_TYPE_CODE VARCHAR(50)
+         NOT NULL ,                   CONTACT_TYPE VARCHAR(50)
+        ,                   BOOKING_ASSISTED SMALLINT        ,                   BOOKING_DELTA SMALLINT        ,                   ANCILLARY_ASSISTED SMALLINT        ,                   ANCILLARY_DELTA SMALLINT        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 9): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_CONTACT_TYPE_VW_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_CONTACT_TYPE_VW_R (
+                   CONTACT_TYPE_CODE VARCHAR(50)
+         NOT NULL ,                   CONTACT_TYPE VARCHAR(50)
+        ,                   BOOKING_ASSISTED SMALLINT        ,                   BOOKING_DELTA SMALLINT        ,                   ANCILLARY_ASSISTED SMALLINT        ,                   ANCILLARY_DELTA SMALLINT        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 5): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_CONTACT_TYPE_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.CODIAC_EMAIL_HA (
+    EMAIL_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    EMAIL_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   Massnahme INTEGER         NOT NULL ,                   Aktion INTEGER         NOT NULL ,                   KD_KundenID VARCHAR(30)
+         NOT NULL ,                   MT_Mitglieds_ID BIGINT         NOT NULL ,                   ind_Permissions_ID VARCHAR(255)
+         NOT NULL ,                   Versandzeitpunkt TIMESTAMP        ,                   Versender VARCHAR(100)
+        ,                   broadmail_Responsekategorie VARCHAR(100)
+        ,                   Mailing_ID BIGINT        ,                   Mandanten_ID BIGINT        ,                   Mailinglayout_Bezeichnung VARCHAR(255)
+        ,                   Oeffnungsklick SMALLINT        ,                   Oeffnungszeitpunkt TIMESTAMP        ,                   Oeffnungs_ID INTEGER        ,                   Mailing_ID_Oeffnung BIGINT        ,                   Ausloesungszeitpunkt TIMESTAMP        ,                   Linkoeffnungs_ID INTEGER        ,                   Mailing_ID_Link BIGINT        ,                   Mailinglink_ID BIGINT        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 12): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.CODIAC_EMAIL_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.CODIAC_EMAIL_R (
+                   Massnahme INTEGER         NOT NULL ,                   Aktion INTEGER         NOT NULL ,                   KD_KundenID VARCHAR(30)
+         NOT NULL ,                   MT_Mitglieds_ID BIGINT         NOT NULL ,                   ind_Permissions_ID VARCHAR(255)
+         NOT NULL ,                   Versandzeitpunkt TIMESTAMP        ,                   Versender VARCHAR(100)
+        ,                   broadmail_Responsekategorie VARCHAR(100)
+        ,                   Mailing_ID BIGINT        ,                   Mandanten_ID BIGINT        ,                   Mailinglayout_Bezeichnung VARCHAR(255)
+        ,                   Oeffnungsklick SMALLINT        ,                   Oeffnungszeitpunkt TIMESTAMP        ,                   Oeffnungs_ID INTEGER        ,                   Mailing_ID_Oeffnung BIGINT        ,                   Ausloesungszeitpunkt TIMESTAMP        ,                   Linkoeffnungs_ID INTEGER        ,                   Mailing_ID_Link BIGINT        ,                   Mailinglink_ID BIGINT        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 8): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.CODIAC_EMAIL_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.CODIAC_EMAIL_UE_HA (
+    EMAIL_UE_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    EMAIL_UE_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   Massnahme INTEGER         NOT NULL ,                   Aktion INTEGER         NOT NULL ,                   ind_Permissions_ID VARCHAR(255)
+         NOT NULL ,                   Versandzeitpunkt TIMESTAMP        ,                   Versender VARCHAR(100)
+        ,                   Mailing_ID BIGINT        ,                   Mandanten_ID BIGINT        ,                   Mailinglayout_Bezeichnung VARCHAR(255)
+        ,                   Oeffnungsklick SMALLINT        ,                   Oeffnungszeitpunkt TIMESTAMP        ,                   Oeffnungs_ID INTEGER        ,                   Mailing_ID_Oeffnung BIGINT        ,                   Ausloesungszeitpunkt TIMESTAMP        ,                   Linkoeffnungs_ID INTEGER        ,                   Mailing_ID_Link BIGINT        ,                   Mailinglink_ID BIGINT        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 10): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.CODIAC_EMAIL_UE_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.CODIAC_EMAIL_UE_R (
+                   Massnahme INTEGER         NOT NULL ,                   Aktion INTEGER         NOT NULL ,                   ind_Permissions_ID VARCHAR(255)
+         NOT NULL ,                   Versandzeitpunkt TIMESTAMP        ,                   Versender VARCHAR(100)
+        ,                   Mailing_ID BIGINT        ,                   Mandanten_ID BIGINT        ,                   Mailinglayout_Bezeichnung VARCHAR(255)
+        ,                   Oeffnungsklick SMALLINT        ,                   Oeffnungszeitpunkt TIMESTAMP        ,                   Oeffnungs_ID INTEGER        ,                   Mailing_ID_Oeffnung BIGINT        ,                   Ausloesungszeitpunkt TIMESTAMP        ,                   Linkoeffnungs_ID INTEGER        ,                   Mailing_ID_Link BIGINT        ,                   Mailinglink_ID BIGINT        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 6): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.CODIAC_EMAIL_UE_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_FUNCTION_VW_HA (
+    FUNCTION_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    FUNCTION_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   FUNCTION_CODE VARCHAR(50)
+         NOT NULL ,                   FUNCTION VARCHAR(250)
+        ,                   FUNCTION_TYPE VARCHAR(50)
+        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 10): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_FUNCTION_VW_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_FUNCTION_VW_R (
+                   FUNCTION_CODE VARCHAR(50)
+         NOT NULL ,                   FUNCTION VARCHAR(250)
+        ,                   FUNCTION_TYPE VARCHAR(50)
+        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 6): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_FUNCTION_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_INITIATIVE_VW_HA (
+    INITIATIVE_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    INITIATIVE_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   INITIATIVE_CODE VARCHAR(50)
+         NOT NULL ,                   INITIATIVE_DESC VARCHAR(250)
+        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 9): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_INITIATIVE_VW_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_INITIATIVE_VW_R (
+                   INITIATIVE_CODE VARCHAR(50)
+         NOT NULL ,                   INITIATIVE_DESC VARCHAR(250)
+        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 5): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_INITIATIVE_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_LEGAL_ENTITY_VW_HA (
+    LEGAL_ENTITY_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    LEGAL_ENTITY_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   LEGAL_ENTITY_CODE VARCHAR(50)
+         NOT NULL ,                   LEGAL_ENTITY_ID VARCHAR(50)
+        ,                   LEGAL_ENTITY_DESC VARCHAR(50)
+        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 10): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_LEGAL_ENTITY_VW_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_LEGAL_ENTITY_VW_R (
+                   LEGAL_ENTITY_CODE VARCHAR(50)
+         NOT NULL ,                   LEGAL_ENTITY_ID VARCHAR(50)
+        ,                   LEGAL_ENTITY_DESC VARCHAR(50)
+        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 6): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_LEGAL_ENTITY_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_MEASURE_VW_HA (
+    MEASURE_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    MEASURE_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   MEASURE VARCHAR(50)
+         NOT NULL ,                   CAMPAIGN_NAME VARCHAR(250)
+         NOT NULL ,                   CAMPAIGN_EFFECTIVE_DATE DATE        ,                   CAMPAIGN_EXPIRATION_DATE DATE        ,                   LEGAL_ENTITY_CODE VARCHAR(50)
+        ,                   SELECTION_SYSTEM VARCHAR(50)
+        ,                   CAMPAIGNSK BIGINT        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 11): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_MEASURE_VW_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_MEASURE_VW_R (
+                   MEASURE VARCHAR(50)
+         NOT NULL ,                   CAMPAIGN_NAME VARCHAR(250)
+         NOT NULL ,                   CAMPAIGN_EFFECTIVE_DATE DATE        ,                   CAMPAIGN_EXPIRATION_DATE DATE        ,                   LEGAL_ENTITY_CODE VARCHAR(50)
+        ,                   SELECTION_SYSTEM VARCHAR(50)
+        ,                   CAMPAIGNSK BIGINT        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 7): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_MEASURE_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_PERSON_VW_HA (
+    PERSON_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    PERSON_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   PERSON_CODE VARCHAR(50)
+         NOT NULL ,                   COMPANY_CODE VARCHAR(50)
+         NOT NULL ,                   FORENAME VARCHAR(250)
+        ,                   SURENAME VARCHAR(250)
+        ,                   PHONE VARCHAR(120)
+        ,                   EMAIL VARCHAR(320)
+        ,                   FUNCTION_CODE VARCHAR(50)
+        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 14): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_PERSON_VW_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_PERSON_VW_R (
+                   PERSON_CODE VARCHAR(50)
+         NOT NULL ,                   COMPANY_CODE VARCHAR(50)
+         NOT NULL ,                   FORENAME VARCHAR(250)
+        ,                   SURENAME VARCHAR(250)
+        ,                   PHONE VARCHAR(120)
+        ,                   EMAIL VARCHAR(320)
+        ,                   FUNCTION_CODE VARCHAR(50)
+        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 10): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_PERSON_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_RESYNC_CONFIG_VW_HA (
+    RESYNC_CONFIG_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    RESYNC_CONFIG_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   TABLE_NAME VARCHAR(30)
+         NOT NULL ,                   LAST_RUN TIMESTAMP        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 8): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_RESYNC_CONFIG_VW_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_RESYNC_CONFIG_VW_R (
+                   TABLE_NAME VARCHAR(30)
+         NOT NULL ,                   LAST_RUN TIMESTAMP        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 4): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_RESYNC_CONFIG_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_USER_VW_HA (
+    USER_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    USER_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   USERNAME VARCHAR(50)
+         NOT NULL ,                   FIRST_LASTNAME VARCHAR(200)
+         NOT NULL ,                   PERMISSIONS INTEGER        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 9): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_USER_VW_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.KAMPMETA_USER_VW_R (
+                   USERNAME VARCHAR(50)
+         NOT NULL ,                   FIRST_LASTNAME VARCHAR(200)
+         NOT NULL ,                   PERMISSIONS INTEGER        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 5): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.KAMPMETA_USER_VW_R;TABLE, DRIVER=4.22.29
+
+-------
+27/53/2019 13:53:00
+-------
+
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_ACTION_VW_HA (
+    ACTION_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    ACTION_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   MEASURE VARCHAR(50)
+         NOT NULL ,                   ACTION VARCHAR(50)
+         NOT NULL ,                   SUB_CAMPAIGN_NAME VARCHAR(50)
+        ,                   CHANNEL_CODE VARCHAR(50)
+        ,                   INITIATIVE_CODE VARCHAR(50)
+        ,                   ADVERTISING_DESIGN_CODE VARCHAR(50)
+        ,                   CONTACT_TYPE_CODE VARCHAR(50)
+        ,                   COST_UNIT VARCHAR(50)
+        ,                   COST_CENTER VARCHAR(50)
+        ,                   CAMPAIGN_SUB_PROGRAM_CODE VARCHAR(50)
+        ,                   EDITION_PLANNED INTEGER        ,                   DELIVERY_LETTERSHOP DATE        ,                   CAMPAIGN_FIXED_COST DECIMAL(19,6)
+        ,                   EDITION_FINAL INTEGER        ,                   PARTNER_CONTRIBUTION DECIMAL(19,6)
+        ,                   CONTACT_DATE DATE        ,                   SELECTION_DATE DATE        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 19): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_ACTION_VW_R (
+                   MEASURE VARCHAR(50)
+         NOT NULL ,                   ACTION VARCHAR(50)
+         NOT NULL ,                   SUB_CAMPAIGN_NAME VARCHAR(50)
+        ,                   CHANNEL_CODE VARCHAR(50)
+        ,                   INITIATIVE_CODE VARCHAR(50)
+        ,                   ADVERTISING_DESIGN_CODE VARCHAR(50)
+        ,                   CONTACT_TYPE_CODE VARCHAR(50)
+        ,                   COST_UNIT VARCHAR(50)
+        ,                   COST_CENTER VARCHAR(50)
+        ,                   CAMPAIGN_SUB_PROGRAM_CODE VARCHAR(50)
+        ,                   EDITION_PLANNED INTEGER        ,                   DELIVERY_LETTERSHOP DATE        ,                   CAMPAIGN_FIXED_COST DECIMAL(19,6)
+        ,                   EDITION_FINAL INTEGER        ,                   PARTNER_CONTRIBUTION DECIMAL(19,6)
+        ,                   CONTACT_DATE DATE        ,                   SELECTION_DATE DATE        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 15): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_ADVERTISED_OFFERS_VW_HA (
+    ADVERTISED_OFFERS_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    ADVERTISED_OFFERS_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   MEASURE VARCHAR(50)
+         NOT NULL ,                   ACTION VARCHAR(50)
+         NOT NULL ,                   HOTEL_CODE VARCHAR(20)
+         NOT NULL ,                   ADVERTISING_KIND_CODE VARCHAR(4)
+        ,                   ADVERTISING_DESC VARCHAR(100)
+        ,                   OFFER_NO VARCHAR(2)
+        ,                   GIATAID INTEGER        ,                   OPERATOR VARCHAR(25)
+        ,                   SCOPE VARCHAR(25)
+        ,                   STARTDATE DATE        ,                   ENDDATE DATE        ,                   DURATION SMALLINT        ,                   BOARDTYPE VARCHAR(10)
+        ,                   ROOMTYPE VARCHAR(25)
+        ,                   COOPID VARCHAR(255)
+        ,                   LIST_PRICE DECIMAL(19,6)
+        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 19): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_ADVERTISED_OFFERS_VW_R (
+                   MEASURE VARCHAR(50)
+         NOT NULL ,                   ACTION VARCHAR(50)
+         NOT NULL ,                   HOTEL_CODE VARCHAR(20)
+         NOT NULL ,                   ADVERTISING_KIND_CODE VARCHAR(4)
+        ,                   ADVERTISING_DESC VARCHAR(100)
+        ,                   OFFER_NO VARCHAR(2)
+        ,                   GIATAID INTEGER        ,                   OPERATOR VARCHAR(25)
+        ,                   SCOPE VARCHAR(25)
+        ,                   STARTDATE DATE        ,                   ENDDATE DATE        ,                   DURATION SMALLINT        ,                   BOARDTYPE VARCHAR(10)
+        ,                   ROOMTYPE VARCHAR(25)
+        ,                   COOPID VARCHAR(255)
+        ,                   LIST_PRICE DECIMAL(19,6)
+        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 15): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_ADVERTISING_DESIGN_VW_HA (
+    ADVERTISING_DESIGN_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    ADVERTISING_DESIGN_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   ADVERTISING_DESIGN_CODE VARCHAR(50)
+         NOT NULL ,                   ADVERTISING_DESIGN_DESC VARCHAR(250)
+        ,                   TIMESTSAMP_INSERT TIMESTAMP         NOT NULL )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 9): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_ADVERTISING_DESIGN_VW_R (
+                   ADVERTISING_DESIGN_CODE VARCHAR(50)
+         NOT NULL ,                   ADVERTISING_DESIGN_DESC VARCHAR(250)
+        ,                   TIMESTSAMP_INSERT TIMESTAMP         NOT NULL )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 5): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.CODIAC_AKTION_KUNDERETURN_HA (
+    AKTION_KUNDERETURN_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    AKTION_KUNDERETURN_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   Massnahme INTEGER         NOT NULL ,                   Aktion INTEGER         NOT NULL ,                   KD_KundenID VARCHAR(30)
+         NOT NULL ,                   ResponseArt_Code VARCHAR(12)
+         NOT NULL ,                   Datum_Erfassung DATE        ,                   Grund_Bezeichnung VARCHAR(50)
+        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 10): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.CODIAC_AKTION_KUNDERETURN_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.CODIAC_AKTION_KUNDERETURN_R (
+                   Massnahme INTEGER         NOT NULL ,                   Aktion INTEGER         NOT NULL ,                   KD_KundenID VARCHAR(30)
+         NOT NULL ,                   ResponseArt_Code VARCHAR(12)
+         NOT NULL ,                   Datum_Erfassung DATE        ,                   Grund_Bezeichnung VARCHAR(50)
+        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 6): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.CODIAC_AKTION_KUNDERETURN_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.CODIAC_AKTION_KUNDE_HA (
+    AKTION_KUNDE_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    AKTION_KUNDE_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   Massnahme INTEGER         NOT NULL ,                   Aktion INTEGER         NOT NULL ,                   KD_KundenID VARCHAR(30)
+         NOT NULL ,                   Kundenstatus_Code VARCHAR(4)
+        ,                   ResponseArt_Code VARCHAR(12)
+        ,                   ResponseSperrung_Code VARCHAR(4)
+        ,                   Testgruppe SMALLINT        ,                   coupon_category VARCHAR(250)
+        ,                   coupon_token VARCHAR(250)
+        ,                   Linkart INTEGER        ,                   Postauslieferungstermin TIMESTAMP        ,                   Gruppe INTEGER        ,                   Gruppe_Bezeichnung VARCHAR(100)
+        ,                   Buero_SRC_ID_Besitzer VARCHAR(10)
+        ,                   Buero_SRC_ID_Quelle VARCHAR(10)
+        ,                   Ansprache_Brief SMALLINT         NOT NULL ,                   Ansprache_Email SMALLINT         NOT NULL ,                   Ansprache_Telefon SMALLINT         NOT NULL )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 16): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.CODIAC_AKTION_KUNDE_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.CODIAC_AKTION_KUNDE_R (
+                   Massnahme INTEGER         NOT NULL ,                   Aktion INTEGER         NOT NULL ,                   KD_KundenID VARCHAR(30)
+         NOT NULL ,                   Kundenstatus_Code VARCHAR(4)
+        ,                   ResponseArt_Code VARCHAR(12)
+        ,                   ResponseSperrung_Code VARCHAR(4)
+        ,                   Testgruppe SMALLINT        ,                   coupon_category VARCHAR(250)
+        ,                   coupon_token VARCHAR(250)
+        ,                   Linkart INTEGER        ,                   Postauslieferungstermin TIMESTAMP        ,                   Gruppe INTEGER        ,                   Gruppe_Bezeichnung VARCHAR(100)
+        ,                   Buero_SRC_ID_Besitzer VARCHAR(10)
+        ,                   Buero_SRC_ID_Quelle VARCHAR(10)
+        ,                   Ansprache_Brief SMALLINT         NOT NULL ,                   Ansprache_Email SMALLINT         NOT NULL ,                   Ansprache_Telefon SMALLINT         NOT NULL )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 12): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.CODIAC_AKTION_KUNDE_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.CODIAC_AKTION_KUNDE_UE_HA (
+    AKTION_KUNDE_UE_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    AKTION_KUNDE_UE_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   Massnahme INTEGER         NOT NULL ,                   Aktion INTEGER         NOT NULL ,                   ind_Permissions_ID VARCHAR(255)
+         NOT NULL ,                   Kundenstatus_Code VARCHAR(4)
+        ,                   ResponseArt_Code VARCHAR(12)
+        ,                   ResponseSperrung_Code VARCHAR(4)
+        ,                   Testgruppe SMALLINT        ,                   coupon_category VARCHAR(250)
+        ,                   coupon_token VARCHAR(250)
+        ,                   Linkart INTEGER        ,                   Postauslieferungstermin TIMESTAMP        ,                   Gruppe INTEGER        ,                   Gruppe_Bezeichnung VARCHAR(100)
+        ,                   Buero_SRC_ID_Besitzer VARCHAR(10)
+        ,                   Buero_SRC_ID_Quelle VARCHAR(10)
+        ,                   Ansprache_Brief SMALLINT         NOT NULL ,                   Ansprache_Email SMALLINT         NOT NULL ,                   Ansprache_Telefon SMALLINT         NOT NULL )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 16): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.CODIAC_AKTION_KUNDE_UE_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.CODIAC_AKTION_KUNDE_UE_R (
+                   Massnahme INTEGER         NOT NULL ,                   Aktion INTEGER         NOT NULL ,                   ind_Permissions_ID VARCHAR(255)
+         NOT NULL ,                   Kundenstatus_Code VARCHAR(4)
+        ,                   ResponseArt_Code VARCHAR(12)
+        ,                   ResponseSperrung_Code VARCHAR(4)
+        ,                   Testgruppe SMALLINT        ,                   coupon_category VARCHAR(250)
+        ,                   coupon_token VARCHAR(250)
+        ,                   Linkart INTEGER        ,                   Postauslieferungstermin TIMESTAMP        ,                   Gruppe INTEGER        ,                   Gruppe_Bezeichnung VARCHAR(100)
+        ,                   Buero_SRC_ID_Besitzer VARCHAR(10)
+        ,                   Buero_SRC_ID_Quelle VARCHAR(10)
+        ,                   Ansprache_Brief SMALLINT         NOT NULL ,                   Ansprache_Email SMALLINT         NOT NULL ,                   Ansprache_Telefon SMALLINT         NOT NULL )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 12): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.CODIAC_AKTION_KUNDE_UE_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_CAMPAIGN_SUB_PROGRAM_VW_HA (
+    CAMPAIGN_SUB_PROGRAM_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    CAMPAIGN_SUB_PROGRAM_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   CAMPAIGN_SUB_PROGRAM_CODE VARCHAR(50)
+         NOT NULL ,                   CAMPAIGN_SUB_PROGRAM_DESC VARCHAR(250)
+        ,                   ACTIVE_FLAG VARCHAR(1)
+         NOT NULL )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 10): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_CAMPAIGN_SUB_PROGRAM_VW_R (
+                   CAMPAIGN_SUB_PROGRAM_CODE VARCHAR(50)
+         NOT NULL ,                   CAMPAIGN_SUB_PROGRAM_DESC VARCHAR(250)
+        ,                   ACTIVE_FLAG VARCHAR(1)
+         NOT NULL )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 6): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_CHANNEL_VW_HA (
+    CHANNEL_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    CHANNEL_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   CHANNEL_CODE VARCHAR(50)
+         NOT NULL ,                   CHANNEL_DESC VARCHAR(250)
+        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 9): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_CHANNEL_VW_R (
+                   CHANNEL_CODE VARCHAR(50)
+         NOT NULL ,                   CHANNEL_DESC VARCHAR(250)
+        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 5): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_COMPANY_VW_HA (
+    COMPANY_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    COMPANY_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   COMPANY_CODE VARCHAR(50)
+         NOT NULL ,                   COMPANY VARCHAR(250)
+        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 9): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_COMPANY_VW_R (
+                   COMPANY_CODE VARCHAR(50)
+         NOT NULL ,                   COMPANY VARCHAR(250)
+        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 5): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_CONTACT_PERSON_VW_HA (
+    CONTACT_PERSON_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    CONTACT_PERSON_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   MEASURE VARCHAR(50)
+         NOT NULL ,                   ACTION VARCHAR(50)
+         NOT NULL ,                   PERSON_CODE VARCHAR(50)
+         NOT NULL ,                   COMPANY_CODE VARCHAR(50)
+         NOT NULL ,                   FUNCTION_CODE VARCHAR(50)
+         NOT NULL )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 12): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_CONTACT_PERSON_VW_R (
+                   MEASURE VARCHAR(50)
+         NOT NULL ,                   ACTION VARCHAR(50)
+         NOT NULL ,                   PERSON_CODE VARCHAR(50)
+         NOT NULL ,                   COMPANY_CODE VARCHAR(50)
+         NOT NULL ,                   FUNCTION_CODE VARCHAR(50)
+         NOT NULL )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 8): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_CONTACT_TYPE_VW_HA (
+    CONTACT_TYPE_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    CONTACT_TYPE_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   CONTACT_TYPE_CODE VARCHAR(50)
+         NOT NULL ,                   CONTACT_TYPE VARCHAR(50)
+        ,                   BOOKING_ASSISTED SMALLINT        ,                   BOOKING_DELTA SMALLINT        ,                   ANCILLARY_ASSISTED SMALLINT        ,                   ANCILLARY_DELTA SMALLINT        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 9): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_CONTACT_TYPE_VW_R (
+                   CONTACT_TYPE_CODE VARCHAR(50)
+         NOT NULL ,                   CONTACT_TYPE VARCHAR(50)
+        ,                   BOOKING_ASSISTED SMALLINT        ,                   BOOKING_DELTA SMALLINT        ,                   ANCILLARY_ASSISTED SMALLINT        ,                   ANCILLARY_DELTA SMALLINT        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 5): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.CODIAC_EMAIL_HA (
+    EMAIL_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    EMAIL_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   Massnahme INTEGER         NOT NULL ,                   Aktion INTEGER         NOT NULL ,                   KD_KundenID VARCHAR(30)
+         NOT NULL ,                   MT_Mitglieds_ID BIGINT         NOT NULL ,                   ind_Permissions_ID VARCHAR(255)
+         NOT NULL ,                   Versandzeitpunkt TIMESTAMP        ,                   Versender VARCHAR(100)
+        ,                   broadmail_Responsekategorie VARCHAR(100)
+        ,                   Mailing_ID BIGINT        ,                   Mandanten_ID BIGINT        ,                   Mailinglayout_Bezeichnung VARCHAR(255)
+        ,                   Oeffnungsklick SMALLINT        ,                   Oeffnungszeitpunkt TIMESTAMP        ,                   Oeffnungs_ID INTEGER        ,                   Mailing_ID_Oeffnung BIGINT        ,                   Ausloesungszeitpunkt TIMESTAMP        ,                   Linkoeffnungs_ID INTEGER        ,                   Mailing_ID_Link BIGINT        ,                   Mailinglink_ID BIGINT        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 12): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.CODIAC_EMAIL_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.CODIAC_EMAIL_R (
+                   Massnahme INTEGER         NOT NULL ,                   Aktion INTEGER         NOT NULL ,                   KD_KundenID VARCHAR(30)
+         NOT NULL ,                   MT_Mitglieds_ID BIGINT         NOT NULL ,                   ind_Permissions_ID VARCHAR(255)
+         NOT NULL ,                   Versandzeitpunkt TIMESTAMP        ,                   Versender VARCHAR(100)
+        ,                   broadmail_Responsekategorie VARCHAR(100)
+        ,                   Mailing_ID BIGINT        ,                   Mandanten_ID BIGINT        ,                   Mailinglayout_Bezeichnung VARCHAR(255)
+        ,                   Oeffnungsklick SMALLINT        ,                   Oeffnungszeitpunkt TIMESTAMP        ,                   Oeffnungs_ID INTEGER        ,                   Mailing_ID_Oeffnung BIGINT        ,                   Ausloesungszeitpunkt TIMESTAMP        ,                   Linkoeffnungs_ID INTEGER        ,                   Mailing_ID_Link BIGINT        ,                   Mailinglink_ID BIGINT        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 8): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.CODIAC_EMAIL_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.CODIAC_EMAIL_UE_HA (
+    EMAIL_UE_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    EMAIL_UE_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   Massnahme INTEGER         NOT NULL ,                   Aktion INTEGER         NOT NULL ,                   ind_Permissions_ID VARCHAR(255)
+         NOT NULL ,                   Versandzeitpunkt TIMESTAMP        ,                   Versender VARCHAR(100)
+        ,                   Mailing_ID BIGINT        ,                   Mandanten_ID BIGINT        ,                   Mailinglayout_Bezeichnung VARCHAR(255)
+        ,                   Oeffnungsklick SMALLINT        ,                   Oeffnungszeitpunkt TIMESTAMP        ,                   Oeffnungs_ID INTEGER        ,                   Mailing_ID_Oeffnung BIGINT        ,                   Ausloesungszeitpunkt TIMESTAMP        ,                   Linkoeffnungs_ID INTEGER        ,                   Mailing_ID_Link BIGINT        ,                   Mailinglink_ID BIGINT        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 10): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.CODIAC_EMAIL_UE_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.CODIAC_EMAIL_UE_R (
+                   Massnahme INTEGER         NOT NULL ,                   Aktion INTEGER         NOT NULL ,                   ind_Permissions_ID VARCHAR(255)
+         NOT NULL ,                   Versandzeitpunkt TIMESTAMP        ,                   Versender VARCHAR(100)
+        ,                   Mailing_ID BIGINT        ,                   Mandanten_ID BIGINT        ,                   Mailinglayout_Bezeichnung VARCHAR(255)
+        ,                   Oeffnungsklick SMALLINT        ,                   Oeffnungszeitpunkt TIMESTAMP        ,                   Oeffnungs_ID INTEGER        ,                   Mailing_ID_Oeffnung BIGINT        ,                   Ausloesungszeitpunkt TIMESTAMP        ,                   Linkoeffnungs_ID INTEGER        ,                   Mailing_ID_Link BIGINT        ,                   Mailinglink_ID BIGINT        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 6): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.CODIAC_EMAIL_UE_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_FUNCTION_VW_HA (
+    FUNCTION_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    FUNCTION_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   FUNCTION_CODE VARCHAR(50)
+         NOT NULL ,                   FUNCTION VARCHAR(250)
+        ,                   FUNCTION_TYPE VARCHAR(50)
+        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 10): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_FUNCTION_VW_R (
+                   FUNCTION_CODE VARCHAR(50)
+         NOT NULL ,                   FUNCTION VARCHAR(250)
+        ,                   FUNCTION_TYPE VARCHAR(50)
+        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 6): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_INITIATIVE_VW_HA (
+    INITIATIVE_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    INITIATIVE_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   INITIATIVE_CODE VARCHAR(50)
+         NOT NULL ,                   INITIATIVE_DESC VARCHAR(250)
+        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 9): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_INITIATIVE_VW_R (
+                   INITIATIVE_CODE VARCHAR(50)
+         NOT NULL ,                   INITIATIVE_DESC VARCHAR(250)
+        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 5): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_LEGAL_ENTITY_VW_HA (
+    LEGAL_ENTITY_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    LEGAL_ENTITY_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   LEGAL_ENTITY_CODE VARCHAR(50)
+         NOT NULL ,                   LEGAL_ENTITY_ID VARCHAR(50)
+        ,                   LEGAL_ENTITY_DESC VARCHAR(50)
+        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 10): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_LEGAL_ENTITY_VW_R (
+                   LEGAL_ENTITY_CODE VARCHAR(50)
+         NOT NULL ,                   LEGAL_ENTITY_ID VARCHAR(50)
+        ,                   LEGAL_ENTITY_DESC VARCHAR(50)
+        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 6): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_MEASURE_VW_HA (
+    MEASURE_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    MEASURE_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   MEASURE VARCHAR(50)
+         NOT NULL ,                   CAMPAIGN_NAME VARCHAR(250)
+         NOT NULL ,                   CAMPAIGN_EFFECTIVE_DATE DATE        ,                   CAMPAIGN_EXPIRATION_DATE DATE        ,                   LEGAL_ENTITY_CODE VARCHAR(50)
+        ,                   SELECTION_SYSTEM VARCHAR(50)
+        ,                   CAMPAIGNSK BIGINT        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 11): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_MEASURE_VW_R (
+                   MEASURE VARCHAR(50)
+         NOT NULL ,                   CAMPAIGN_NAME VARCHAR(250)
+         NOT NULL ,                   CAMPAIGN_EFFECTIVE_DATE DATE        ,                   CAMPAIGN_EXPIRATION_DATE DATE        ,                   LEGAL_ENTITY_CODE VARCHAR(50)
+        ,                   SELECTION_SYSTEM VARCHAR(50)
+        ,                   CAMPAIGNSK BIGINT        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 7): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_PERSON_VW_HA (
+    PERSON_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    PERSON_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   PERSON_CODE VARCHAR(50)
+         NOT NULL ,                   COMPANY_CODE VARCHAR(50)
+         NOT NULL ,                   FORENAME VARCHAR(250)
+        ,                   SURENAME VARCHAR(250)
+        ,                   PHONE VARCHAR(120)
+        ,                   EMAIL VARCHAR(320)
+        ,                   FUNCTION_CODE VARCHAR(50)
+        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 14): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_PERSON_VW_R (
+                   PERSON_CODE VARCHAR(50)
+         NOT NULL ,                   COMPANY_CODE VARCHAR(50)
+         NOT NULL ,                   FORENAME VARCHAR(250)
+        ,                   SURENAME VARCHAR(250)
+        ,                   PHONE VARCHAR(120)
+        ,                   EMAIL VARCHAR(320)
+        ,                   FUNCTION_CODE VARCHAR(50)
+        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 10): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_RESYNC_CONFIG_VW_HA (
+    RESYNC_CONFIG_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    RESYNC_CONFIG_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   TABLE_NAME VARCHAR(30)
+         NOT NULL ,                   LAST_RUN TIMESTAMP        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 8): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_RESYNC_CONFIG_VW_R (
+                   TABLE_NAME VARCHAR(30)
+         NOT NULL ,                   LAST_RUN TIMESTAMP        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 4): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_USER_VW_HA (
+    USER_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    USER_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   USERNAME VARCHAR(50)
+         NOT NULL ,                   FIRST_LASTNAME VARCHAR(200)
+         NOT NULL ,                   PERMISSIONS INTEGER        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 9): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_USER_VW_R (
+                   USERNAME VARCHAR(50)
+         NOT NULL ,                   FIRST_LASTNAME VARCHAR(200)
+         NOT NULL ,                   PERMISSIONS INTEGER        )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 5): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+
+-------
+27/32/2019 14:32:48
+-------
+
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_ACTION_VW_HA (
+    ACTION_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    ACTION_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   MEASURE VARCHAR(50)
+                ,                   ACTION VARCHAR(50)
+                ,                   SUB_CAMPAIGN_NAME VARCHAR(50)
+                ,                   CHANNEL_CODE VARCHAR(50)
+                ,                   INITIATIVE_CODE VARCHAR(50)
+                ,                   ADVERTISING_DESIGN_CODE VARCHAR(50)
+                ,                   CONTACT_TYPE_CODE VARCHAR(50)
+                ,                   COST_UNIT VARCHAR(50)
+                ,                   COST_CENTER VARCHAR(50)
+                ,                   CAMPAIGN_SUB_PROGRAM_CODE VARCHAR(50)
+                ,                   EDITION_PLANNED INTEGER                ,                   DELIVERY_LETTERSHOP DATE                ,                   CAMPAIGN_FIXED_COST DECIMAL(19,6)
+                ,                   EDITION_FINAL INTEGER                ,                   PARTNER_CONTRIBUTION DECIMAL(19,6)
+                ,                   CONTACT_DATE DATE                ,                   SELECTION_DATE DATE                )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 19): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_ACTION_VW_R (
+                   MEASURE VARCHAR(50)
+                ,                   ACTION VARCHAR(50)
+                ,                   SUB_CAMPAIGN_NAME VARCHAR(50)
+                ,                   CHANNEL_CODE VARCHAR(50)
+                ,                   INITIATIVE_CODE VARCHAR(50)
+                ,                   ADVERTISING_DESIGN_CODE VARCHAR(50)
+                ,                   CONTACT_TYPE_CODE VARCHAR(50)
+                ,                   COST_UNIT VARCHAR(50)
+                ,                   COST_CENTER VARCHAR(50)
+                ,                   CAMPAIGN_SUB_PROGRAM_CODE VARCHAR(50)
+                ,                   EDITION_PLANNED INTEGER                ,                   DELIVERY_LETTERSHOP DATE                ,                   CAMPAIGN_FIXED_COST DECIMAL(19,6)
+                ,                   EDITION_FINAL INTEGER                ,                   PARTNER_CONTRIBUTION DECIMAL(19,6)
+                ,                   CONTACT_DATE DATE                ,                   SELECTION_DATE DATE                )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 15): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_ADVERTISED_OFFERS_VW_HA (
+    ADVERTISED_OFFERS_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    ADVERTISED_OFFERS_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   MEASURE VARCHAR(50)
+                ,                   ACTION VARCHAR(50)
+                ,                   HOTEL_CODE VARCHAR(20)
+                ,                   ADVERTISING_KIND_CODE VARCHAR(4)
+                ,                   ADVERTISING_DESC VARCHAR(100)
+                ,                   OFFER_NO VARCHAR(2)
+                ,                   GIATAID INTEGER                ,                   OPERATOR VARCHAR(25)
+                ,                   SCOPE VARCHAR(25)
+                ,                   STARTDATE DATE                ,                   ENDDATE DATE                ,                   DURATION SMALLINT                ,                   BOARDTYPE VARCHAR(10)
+                ,                   ROOMTYPE VARCHAR(25)
+                ,                   COOPID VARCHAR(255)
+                ,                   LIST_PRICE DECIMAL(19,6)
+                )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 19): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_ADVERTISED_OFFERS_VW_R (
+                   MEASURE VARCHAR(50)
+                ,                   ACTION VARCHAR(50)
+                ,                   HOTEL_CODE VARCHAR(20)
+                ,                   ADVERTISING_KIND_CODE VARCHAR(4)
+                ,                   ADVERTISING_DESC VARCHAR(100)
+                ,                   OFFER_NO VARCHAR(2)
+                ,                   GIATAID INTEGER                ,                   OPERATOR VARCHAR(25)
+                ,                   SCOPE VARCHAR(25)
+                ,                   STARTDATE DATE                ,                   ENDDATE DATE                ,                   DURATION SMALLINT                ,                   BOARDTYPE VARCHAR(10)
+                ,                   ROOMTYPE VARCHAR(25)
+                ,                   COOPID VARCHAR(255)
+                ,                   LIST_PRICE DECIMAL(19,6)
+                )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 15): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_ADVERTISING_DESIGN_VW_HA (
+    ADVERTISING_DESIGN_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    ADVERTISING_DESIGN_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   ADVERTISING_DESIGN_CODE VARCHAR(50)
+                ,                   ADVERTISING_DESIGN_DESC VARCHAR(250)
+                ,                   TIMESTSAMP_INSERT TIMESTAMP                )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 9): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_ADVERTISING_DESIGN_VW_R (
+                   ADVERTISING_DESIGN_CODE VARCHAR(50)
+                ,                   ADVERTISING_DESIGN_DESC VARCHAR(250)
+                ,                   TIMESTSAMP_INSERT TIMESTAMP                )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 5): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.CODIAC_AKTION_KUNDERETURN_HA (
+    AKTION_KUNDERETURN_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    AKTION_KUNDERETURN_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   Massnahme INTEGER                ,                   Aktion INTEGER                ,                   KD_KundenID VARCHAR(30)
+                ,                   ResponseArt_Code VARCHAR(12)
+                ,                   Datum_Erfassung DATE                ,                   Grund_Bezeichnung VARCHAR(50)
+                )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 10): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.CODIAC_AKTION_KUNDERETURN_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.CODIAC_AKTION_KUNDERETURN_R (
+                   Massnahme INTEGER                ,                   Aktion INTEGER                ,                   KD_KundenID VARCHAR(30)
+                ,                   ResponseArt_Code VARCHAR(12)
+                ,                   Datum_Erfassung DATE                ,                   Grund_Bezeichnung VARCHAR(50)
+                )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 6): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.CODIAC_AKTION_KUNDERETURN_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.CODIAC_AKTION_KUNDE_HA (
+    AKTION_KUNDE_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    AKTION_KUNDE_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   Massnahme INTEGER                ,                   Aktion INTEGER                ,                   KD_KundenID VARCHAR(30)
+                ,                   Kundenstatus_Code VARCHAR(4)
+                ,                   ResponseArt_Code VARCHAR(12)
+                ,                   ResponseSperrung_Code VARCHAR(4)
+                ,                   Testgruppe SMALLINT                ,                   coupon_category VARCHAR(250)
+                ,                   coupon_token VARCHAR(250)
+                ,                   Linkart INTEGER                ,                   Postauslieferungstermin TIMESTAMP                ,                   Gruppe INTEGER                ,                   Gruppe_Bezeichnung VARCHAR(100)
+                ,                   Buero_SRC_ID_Besitzer VARCHAR(10)
+                ,                   Buero_SRC_ID_Quelle VARCHAR(10)
+                ,                   Ansprache_Brief SMALLINT                ,                   Ansprache_Email SMALLINT                ,                   Ansprache_Telefon SMALLINT                )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 16): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.CODIAC_AKTION_KUNDE_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.CODIAC_AKTION_KUNDE_R (
+                   Massnahme INTEGER                ,                   Aktion INTEGER                ,                   KD_KundenID VARCHAR(30)
+                ,                   Kundenstatus_Code VARCHAR(4)
+                ,                   ResponseArt_Code VARCHAR(12)
+                ,                   ResponseSperrung_Code VARCHAR(4)
+                ,                   Testgruppe SMALLINT                ,                   coupon_category VARCHAR(250)
+                ,                   coupon_token VARCHAR(250)
+                ,                   Linkart INTEGER                ,                   Postauslieferungstermin TIMESTAMP                ,                   Gruppe INTEGER                ,                   Gruppe_Bezeichnung VARCHAR(100)
+                ,                   Buero_SRC_ID_Besitzer VARCHAR(10)
+                ,                   Buero_SRC_ID_Quelle VARCHAR(10)
+                ,                   Ansprache_Brief SMALLINT                ,                   Ansprache_Email SMALLINT                ,                   Ansprache_Telefon SMALLINT                )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 12): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.CODIAC_AKTION_KUNDE_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.CODIAC_AKTION_KUNDE_UE_HA (
+    AKTION_KUNDE_UE_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    AKTION_KUNDE_UE_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   Massnahme INTEGER                ,                   Aktion INTEGER                ,                   ind_Permissions_ID VARCHAR(255)
+                ,                   Kundenstatus_Code VARCHAR(4)
+                ,                   ResponseArt_Code VARCHAR(12)
+                ,                   ResponseSperrung_Code VARCHAR(4)
+                ,                   Testgruppe SMALLINT                ,                   coupon_category VARCHAR(250)
+                ,                   coupon_token VARCHAR(250)
+                ,                   Linkart INTEGER                ,                   Postauslieferungstermin TIMESTAMP                ,                   Gruppe INTEGER                ,                   Gruppe_Bezeichnung VARCHAR(100)
+                ,                   Buero_SRC_ID_Besitzer VARCHAR(10)
+                ,                   Buero_SRC_ID_Quelle VARCHAR(10)
+                ,                   Ansprache_Brief SMALLINT                ,                   Ansprache_Email SMALLINT                ,                   Ansprache_Telefon SMALLINT                )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 16): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.CODIAC_AKTION_KUNDE_UE_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.CODIAC_AKTION_KUNDE_UE_R (
+                   Massnahme INTEGER                ,                   Aktion INTEGER                ,                   ind_Permissions_ID VARCHAR(255)
+                ,                   Kundenstatus_Code VARCHAR(4)
+                ,                   ResponseArt_Code VARCHAR(12)
+                ,                   ResponseSperrung_Code VARCHAR(4)
+                ,                   Testgruppe SMALLINT                ,                   coupon_category VARCHAR(250)
+                ,                   coupon_token VARCHAR(250)
+                ,                   Linkart INTEGER                ,                   Postauslieferungstermin TIMESTAMP                ,                   Gruppe INTEGER                ,                   Gruppe_Bezeichnung VARCHAR(100)
+                ,                   Buero_SRC_ID_Besitzer VARCHAR(10)
+                ,                   Buero_SRC_ID_Quelle VARCHAR(10)
+                ,                   Ansprache_Brief SMALLINT                ,                   Ansprache_Email SMALLINT                ,                   Ansprache_Telefon SMALLINT                )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 12): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.CODIAC_AKTION_KUNDE_UE_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_CAMPAIGN_SUB_PROGRAM_VW_HA (
+    CAMPAIGN_SUB_PROGRAM_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    CAMPAIGN_SUB_PROGRAM_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   CAMPAIGN_SUB_PROGRAM_CODE VARCHAR(50)
+                ,                   CAMPAIGN_SUB_PROGRAM_DESC VARCHAR(250)
+                ,                   ACTIVE_FLAG VARCHAR(1)
+                )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 10): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_CAMPAIGN_SUB_PROGRAM_VW_R (
+                   CAMPAIGN_SUB_PROGRAM_CODE VARCHAR(50)
+                ,                   CAMPAIGN_SUB_PROGRAM_DESC VARCHAR(250)
+                ,                   ACTIVE_FLAG VARCHAR(1)
+                )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 6): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_CHANNEL_VW_HA (
+    CHANNEL_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    CHANNEL_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   CHANNEL_CODE VARCHAR(50)
+                ,                   CHANNEL_DESC VARCHAR(250)
+                )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 9): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_CHANNEL_VW_R (
+                   CHANNEL_CODE VARCHAR(50)
+                ,                   CHANNEL_DESC VARCHAR(250)
+                )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 5): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_COMPANY_VW_HA (
+    COMPANY_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    COMPANY_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   COMPANY_CODE VARCHAR(50)
+                ,                   COMPANY VARCHAR(250)
+                )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 9): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_COMPANY_VW_R (
+                   COMPANY_CODE VARCHAR(50)
+                ,                   COMPANY VARCHAR(250)
+                )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 5): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_CONTACT_PERSON_VW_HA (
+    CONTACT_PERSON_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    CONTACT_PERSON_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   MEASURE VARCHAR(50)
+                ,                   ACTION VARCHAR(50)
+                ,                   PERSON_CODE VARCHAR(50)
+                ,                   COMPANY_CODE VARCHAR(50)
+                ,                   FUNCTION_CODE VARCHAR(50)
+                )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 12): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_CONTACT_PERSON_VW_R (
+                   MEASURE VARCHAR(50)
+                ,                   ACTION VARCHAR(50)
+                ,                   PERSON_CODE VARCHAR(50)
+                ,                   COMPANY_CODE VARCHAR(50)
+                ,                   FUNCTION_CODE VARCHAR(50)
+                )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 8): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_CONTACT_TYPE_VW_HA (
+    CONTACT_TYPE_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    CONTACT_TYPE_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   CONTACT_TYPE_CODE VARCHAR(50)
+                ,                   CONTACT_TYPE VARCHAR(50)
+                ,                   BOOKING_ASSISTED SMALLINT                ,                   BOOKING_DELTA SMALLINT                ,                   ANCILLARY_ASSISTED SMALLINT                ,                   ANCILLARY_DELTA SMALLINT                )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 9): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_CONTACT_TYPE_VW_R (
+                   CONTACT_TYPE_CODE VARCHAR(50)
+                ,                   CONTACT_TYPE VARCHAR(50)
+                ,                   BOOKING_ASSISTED SMALLINT                ,                   BOOKING_DELTA SMALLINT                ,                   ANCILLARY_ASSISTED SMALLINT                ,                   ANCILLARY_DELTA SMALLINT                )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 5): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.CODIAC_EMAIL_HA (
+    EMAIL_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    EMAIL_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   Massnahme INTEGER                ,                   Aktion INTEGER                ,                   KD_KundenID VARCHAR(30)
+                ,                   MT_Mitglieds_ID BIGINT                ,                   ind_Permissions_ID VARCHAR(255)
+                ,                   Versandzeitpunkt TIMESTAMP                ,                   Versender VARCHAR(100)
+                ,                   broadmail_Responsekategorie VARCHAR(100)
+                ,                   Mailing_ID BIGINT                ,                   Mandanten_ID BIGINT                ,                   Mailinglayout_Bezeichnung VARCHAR(255)
+                ,                   Oeffnungsklick SMALLINT                ,                   Oeffnungszeitpunkt TIMESTAMP                ,                   Oeffnungs_ID INTEGER                ,                   Mailing_ID_Oeffnung BIGINT                ,                   Ausloesungszeitpunkt TIMESTAMP                ,                   Linkoeffnungs_ID INTEGER                ,                   Mailing_ID_Link BIGINT                ,                   Mailinglink_ID BIGINT                )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 12): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.CODIAC_EMAIL_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.CODIAC_EMAIL_R (
+                   Massnahme INTEGER                ,                   Aktion INTEGER                ,                   KD_KundenID VARCHAR(30)
+                ,                   MT_Mitglieds_ID BIGINT                ,                   ind_Permissions_ID VARCHAR(255)
+                ,                   Versandzeitpunkt TIMESTAMP                ,                   Versender VARCHAR(100)
+                ,                   broadmail_Responsekategorie VARCHAR(100)
+                ,                   Mailing_ID BIGINT                ,                   Mandanten_ID BIGINT                ,                   Mailinglayout_Bezeichnung VARCHAR(255)
+                ,                   Oeffnungsklick SMALLINT                ,                   Oeffnungszeitpunkt TIMESTAMP                ,                   Oeffnungs_ID INTEGER                ,                   Mailing_ID_Oeffnung BIGINT                ,                   Ausloesungszeitpunkt TIMESTAMP                ,                   Linkoeffnungs_ID INTEGER                ,                   Mailing_ID_Link BIGINT                ,                   Mailinglink_ID BIGINT                )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 8): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.CODIAC_EMAIL_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.CODIAC_EMAIL_UE_HA (
+    EMAIL_UE_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    EMAIL_UE_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   Massnahme INTEGER                ,                   Aktion INTEGER                ,                   ind_Permissions_ID VARCHAR(255)
+                ,                   Versandzeitpunkt TIMESTAMP                ,                   Versender VARCHAR(100)
+                ,                   Mailing_ID BIGINT                ,                   Mandanten_ID BIGINT                ,                   Mailinglayout_Bezeichnung VARCHAR(255)
+                ,                   Oeffnungsklick SMALLINT                ,                   Oeffnungszeitpunkt TIMESTAMP                ,                   Oeffnungs_ID INTEGER                ,                   Mailing_ID_Oeffnung BIGINT                ,                   Ausloesungszeitpunkt TIMESTAMP                ,                   Linkoeffnungs_ID INTEGER                ,                   Mailing_ID_Link BIGINT                ,                   Mailinglink_ID BIGINT                )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 10): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.CODIAC_EMAIL_UE_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE CODIAC_HA.CODIAC_EMAIL_UE_R (
+                   Massnahme INTEGER                ,                   Aktion INTEGER                ,                   ind_Permissions_ID VARCHAR(255)
+                ,                   Versandzeitpunkt TIMESTAMP                ,                   Versender VARCHAR(100)
+                ,                   Mailing_ID BIGINT                ,                   Mandanten_ID BIGINT                ,                   Mailinglayout_Bezeichnung VARCHAR(255)
+                ,                   Oeffnungsklick SMALLINT                ,                   Oeffnungszeitpunkt TIMESTAMP                ,                   Oeffnungs_ID INTEGER                ,                   Mailing_ID_Oeffnung BIGINT                ,                   Ausloesungszeitpunkt TIMESTAMP                ,                   Linkoeffnungs_ID INTEGER                ,                   Mailing_ID_Link BIGINT                ,                   Mailinglink_ID BIGINT                )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 6): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=CODIAC_HA.CODIAC_EMAIL_UE_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_FUNCTION_VW_HA (
+    FUNCTION_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    FUNCTION_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   FUNCTION_CODE VARCHAR(50)
+                ,                   FUNCTION VARCHAR(250)
+                ,                   FUNCTION_TYPE VARCHAR(50)
+                )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 10): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_FUNCTION_VW_R (
+                   FUNCTION_CODE VARCHAR(50)
+                ,                   FUNCTION VARCHAR(250)
+                ,                   FUNCTION_TYPE VARCHAR(50)
+                )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 6): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_INITIATIVE_VW_HA (
+    INITIATIVE_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    INITIATIVE_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   INITIATIVE_CODE VARCHAR(50)
+                ,                   INITIATIVE_DESC VARCHAR(250)
+                )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 9): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_INITIATIVE_VW_R (
+                   INITIATIVE_CODE VARCHAR(50)
+                ,                   INITIATIVE_DESC VARCHAR(250)
+                )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 5): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_LEGAL_ENTITY_VW_HA (
+    LEGAL_ENTITY_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    LEGAL_ENTITY_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   LEGAL_ENTITY_CODE VARCHAR(50)
+                ,                   LEGAL_ENTITY_ID VARCHAR(50)
+                ,                   LEGAL_ENTITY_DESC VARCHAR(50)
+                )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 10): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_LEGAL_ENTITY_VW_R (
+                   LEGAL_ENTITY_CODE VARCHAR(50)
+                ,                   LEGAL_ENTITY_ID VARCHAR(50)
+                ,                   LEGAL_ENTITY_DESC VARCHAR(50)
+                )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 6): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_MEASURE_VW_HA (
+    MEASURE_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    MEASURE_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   MEASURE VARCHAR(50)
+                ,                   CAMPAIGN_NAME VARCHAR(250)
+                ,                   CAMPAIGN_EFFECTIVE_DATE DATE                ,                   CAMPAIGN_EXPIRATION_DATE DATE                ,                   LEGAL_ENTITY_CODE VARCHAR(50)
+                ,                   SELECTION_SYSTEM VARCHAR(50)
+                ,                   CAMPAIGNSK BIGINT                )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 11): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_MEASURE_VW_R (
+                   MEASURE VARCHAR(50)
+                ,                   CAMPAIGN_NAME VARCHAR(250)
+                ,                   CAMPAIGN_EFFECTIVE_DATE DATE                ,                   CAMPAIGN_EXPIRATION_DATE DATE                ,                   LEGAL_ENTITY_CODE VARCHAR(50)
+                ,                   SELECTION_SYSTEM VARCHAR(50)
+                ,                   CAMPAIGNSK BIGINT                )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 7): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_PERSON_VW_HA (
+    PERSON_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    PERSON_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   PERSON_CODE VARCHAR(50)
+                ,                   COMPANY_CODE VARCHAR(50)
+                ,                   FORENAME VARCHAR(250)
+                ,                   SURENAME VARCHAR(250)
+                ,                   PHONE VARCHAR(120)
+                ,                   EMAIL VARCHAR(320)
+                ,                   FUNCTION_CODE VARCHAR(50)
+                )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 14): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_PERSON_VW_R (
+                   PERSON_CODE VARCHAR(50)
+                ,                   COMPANY_CODE VARCHAR(50)
+                ,                   FORENAME VARCHAR(250)
+                ,                   SURENAME VARCHAR(250)
+                ,                   PHONE VARCHAR(120)
+                ,                   EMAIL VARCHAR(320)
+                ,                   FUNCTION_CODE VARCHAR(50)
+                )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 10): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_RESYNC_CONFIG_VW_HA (
+    RESYNC_CONFIG_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    RESYNC_CONFIG_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   TABLE_NAME VARCHAR(30)
+                ,                   LAST_RUN TIMESTAMP                )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 8): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_RESYNC_CONFIG_VW_R (
+                   TABLE_NAME VARCHAR(30)
+                ,                   LAST_RUN TIMESTAMP                )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 4): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_USER_VW_HA (
+    USER_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    USER_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   USERNAME VARCHAR(50)
+                ,                   FIRST_LASTNAME VARCHAR(200)
+                ,                   PERMISSIONS INTEGER                )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 9): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_USER_VW_R (
+                   USERNAME VARCHAR(50)
+                ,                   FIRST_LASTNAME VARCHAR(200)
+                ,                   PERMISSIONS INTEGER                )
+IN MYSR_CUSTOMER INDEX IN MYSR_CUSTOMER COMPRESS YES ' (line 5): DB2 SQL Error: SQLCODE=-204, SQLSTATE=42704, SQLERRMC=MYSR_CUSTOMER, DRIVER=4.22.29
+
+-------
+27/55/2019 15:55:18
+-------
+
+
+-------
+27/56/2019 15:56:08
+-------
+
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_ACTION_VW_HA (
+    ACTION_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    ACTION_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   MEASURE VARCHAR(50)
+                ,                   ACTION VARCHAR(50)
+                ,                   SUB_CAMPAIGN_NAME VARCHAR(50)
+                ,                   CHANNEL_CODE VARCHAR(50)
+                ,                   INITIATIVE_CODE VARCHAR(50)
+                ,                   ADVERTISING_DESIGN_CODE VARCHAR(50)
+                ,                   CONTACT_TYPE_CODE VARCHAR(50)
+                ,                   COST_UNIT VARCHAR(50)
+                ,                   COST_CENTER VARCHAR(50)
+                ,                   CAMPAIGN_SUB_PROGRAM_CODE VARCHAR(50)
+                ,                   EDITION_PLANNED INTEGER                ,                   DELIVERY_LETTERSHOP DATE                ,                   CAMPAIGN_FIXED_COST DECIMAL(19,6)
+                ,                   EDITION_FINAL INTEGER                ,                   PARTNER_CONTRIBUTION DECIMAL(19,6)
+                ,                   CONTACT_DATE DATE                ,                   SELECTION_DATE DATE                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 19): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_ACTION_VW_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_ACTION_VW_R (
+                   MEASURE VARCHAR(50)
+                ,                   ACTION VARCHAR(50)
+                ,                   SUB_CAMPAIGN_NAME VARCHAR(50)
+                ,                   CHANNEL_CODE VARCHAR(50)
+                ,                   INITIATIVE_CODE VARCHAR(50)
+                ,                   ADVERTISING_DESIGN_CODE VARCHAR(50)
+                ,                   CONTACT_TYPE_CODE VARCHAR(50)
+                ,                   COST_UNIT VARCHAR(50)
+                ,                   COST_CENTER VARCHAR(50)
+                ,                   CAMPAIGN_SUB_PROGRAM_CODE VARCHAR(50)
+                ,                   EDITION_PLANNED INTEGER                ,                   DELIVERY_LETTERSHOP DATE                ,                   CAMPAIGN_FIXED_COST DECIMAL(19,6)
+                ,                   EDITION_FINAL INTEGER                ,                   PARTNER_CONTRIBUTION DECIMAL(19,6)
+                ,                   CONTACT_DATE DATE                ,                   SELECTION_DATE DATE                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 15): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_ACTION_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_ADVERTISED_OFFERS_VW_HA (
+    ADVERTISED_OFFERS_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    ADVERTISED_OFFERS_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   MEASURE VARCHAR(50)
+                ,                   ACTION VARCHAR(50)
+                ,                   HOTEL_CODE VARCHAR(20)
+                ,                   ADVERTISING_KIND_CODE VARCHAR(4)
+                ,                   ADVERTISING_DESC VARCHAR(100)
+                ,                   OFFER_NO VARCHAR(2)
+                ,                   GIATAID INTEGER                ,                   OPERATOR VARCHAR(25)
+                ,                   SCOPE VARCHAR(25)
+                ,                   STARTDATE DATE                ,                   ENDDATE DATE                ,                   DURATION SMALLINT                ,                   BOARDTYPE VARCHAR(10)
+                ,                   ROOMTYPE VARCHAR(25)
+                ,                   COOPID VARCHAR(255)
+                ,                   LIST_PRICE DECIMAL(19,6)
+                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 19): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_ADVERTISED_OFFERS_VW_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_ADVERTISED_OFFERS_VW_R (
+                   MEASURE VARCHAR(50)
+                ,                   ACTION VARCHAR(50)
+                ,                   HOTEL_CODE VARCHAR(20)
+                ,                   ADVERTISING_KIND_CODE VARCHAR(4)
+                ,                   ADVERTISING_DESC VARCHAR(100)
+                ,                   OFFER_NO VARCHAR(2)
+                ,                   GIATAID INTEGER                ,                   OPERATOR VARCHAR(25)
+                ,                   SCOPE VARCHAR(25)
+                ,                   STARTDATE DATE                ,                   ENDDATE DATE                ,                   DURATION SMALLINT                ,                   BOARDTYPE VARCHAR(10)
+                ,                   ROOMTYPE VARCHAR(25)
+                ,                   COOPID VARCHAR(255)
+                ,                   LIST_PRICE DECIMAL(19,6)
+                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 15): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_ADVERTISED_OFFERS_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_ADVERTISING_DESIGN_VW_HA (
+    ADVERTISING_DESIGN_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    ADVERTISING_DESIGN_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   ADVERTISING_DESIGN_CODE VARCHAR(50)
+                ,                   ADVERTISING_DESIGN_DESC VARCHAR(250)
+                ,                   TIMESTSAMP_INSERT TIMESTAMP                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 9): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_ADVERTISING_DESIGN_VW_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_ADVERTISING_DESIGN_VW_R (
+                   ADVERTISING_DESIGN_CODE VARCHAR(50)
+                ,                   ADVERTISING_DESIGN_DESC VARCHAR(250)
+                ,                   TIMESTSAMP_INSERT TIMESTAMP                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 5): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_ADVERTISING_DESIGN_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.CODIAC_AKTION_KUNDERETURN_HA (
+    AKTION_KUNDERETURN_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    AKTION_KUNDERETURN_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   Massnahme INTEGER                ,                   Aktion INTEGER                ,                   KD_KundenID VARCHAR(30)
+                ,                   ResponseArt_Code VARCHAR(12)
+                ,                   Datum_Erfassung DATE                ,                   Grund_Bezeichnung VARCHAR(50)
+                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 10): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.CODIAC_AKTION_KUNDERETURN_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.CODIAC_AKTION_KUNDERETURN_R (
+                   Massnahme INTEGER                ,                   Aktion INTEGER                ,                   KD_KundenID VARCHAR(30)
+                ,                   ResponseArt_Code VARCHAR(12)
+                ,                   Datum_Erfassung DATE                ,                   Grund_Bezeichnung VARCHAR(50)
+                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 6): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.CODIAC_AKTION_KUNDERETURN_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.CODIAC_AKTION_KUNDE_HA (
+    AKTION_KUNDE_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    AKTION_KUNDE_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   Massnahme INTEGER                ,                   Aktion INTEGER                ,                   KD_KundenID VARCHAR(30)
+                ,                   Kundenstatus_Code VARCHAR(4)
+                ,                   ResponseArt_Code VARCHAR(12)
+                ,                   ResponseSperrung_Code VARCHAR(4)
+                ,                   Testgruppe SMALLINT                ,                   coupon_category VARCHAR(250)
+                ,                   coupon_token VARCHAR(250)
+                ,                   Linkart INTEGER                ,                   Postauslieferungstermin TIMESTAMP                ,                   Gruppe INTEGER                ,                   Gruppe_Bezeichnung VARCHAR(100)
+                ,                   Buero_SRC_ID_Besitzer VARCHAR(10)
+                ,                   Buero_SRC_ID_Quelle VARCHAR(10)
+                ,                   Ansprache_Brief SMALLINT                ,                   Ansprache_Email SMALLINT                ,                   Ansprache_Telefon SMALLINT                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 16): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.CODIAC_AKTION_KUNDE_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.CODIAC_AKTION_KUNDE_R (
+                   Massnahme INTEGER                ,                   Aktion INTEGER                ,                   KD_KundenID VARCHAR(30)
+                ,                   Kundenstatus_Code VARCHAR(4)
+                ,                   ResponseArt_Code VARCHAR(12)
+                ,                   ResponseSperrung_Code VARCHAR(4)
+                ,                   Testgruppe SMALLINT                ,                   coupon_category VARCHAR(250)
+                ,                   coupon_token VARCHAR(250)
+                ,                   Linkart INTEGER                ,                   Postauslieferungstermin TIMESTAMP                ,                   Gruppe INTEGER                ,                   Gruppe_Bezeichnung VARCHAR(100)
+                ,                   Buero_SRC_ID_Besitzer VARCHAR(10)
+                ,                   Buero_SRC_ID_Quelle VARCHAR(10)
+                ,                   Ansprache_Brief SMALLINT                ,                   Ansprache_Email SMALLINT                ,                   Ansprache_Telefon SMALLINT                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 12): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.CODIAC_AKTION_KUNDE_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.CODIAC_AKTION_KUNDE_UE_HA (
+    AKTION_KUNDE_UE_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    AKTION_KUNDE_UE_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   Massnahme INTEGER                ,                   Aktion INTEGER                ,                   ind_Permissions_ID VARCHAR(255)
+                ,                   Kundenstatus_Code VARCHAR(4)
+                ,                   ResponseArt_Code VARCHAR(12)
+                ,                   ResponseSperrung_Code VARCHAR(4)
+                ,                   Testgruppe SMALLINT                ,                   coupon_category VARCHAR(250)
+                ,                   coupon_token VARCHAR(250)
+                ,                   Linkart INTEGER                ,                   Postauslieferungstermin TIMESTAMP                ,                   Gruppe INTEGER                ,                   Gruppe_Bezeichnung VARCHAR(100)
+                ,                   Buero_SRC_ID_Besitzer VARCHAR(10)
+                ,                   Buero_SRC_ID_Quelle VARCHAR(10)
+                ,                   Ansprache_Brief SMALLINT                ,                   Ansprache_Email SMALLINT                ,                   Ansprache_Telefon SMALLINT                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 16): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.CODIAC_AKTION_KUNDE_UE_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.CODIAC_AKTION_KUNDE_UE_R (
+                   Massnahme INTEGER                ,                   Aktion INTEGER                ,                   ind_Permissions_ID VARCHAR(255)
+                ,                   Kundenstatus_Code VARCHAR(4)
+                ,                   ResponseArt_Code VARCHAR(12)
+                ,                   ResponseSperrung_Code VARCHAR(4)
+                ,                   Testgruppe SMALLINT                ,                   coupon_category VARCHAR(250)
+                ,                   coupon_token VARCHAR(250)
+                ,                   Linkart INTEGER                ,                   Postauslieferungstermin TIMESTAMP                ,                   Gruppe INTEGER                ,                   Gruppe_Bezeichnung VARCHAR(100)
+                ,                   Buero_SRC_ID_Besitzer VARCHAR(10)
+                ,                   Buero_SRC_ID_Quelle VARCHAR(10)
+                ,                   Ansprache_Brief SMALLINT                ,                   Ansprache_Email SMALLINT                ,                   Ansprache_Telefon SMALLINT                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 12): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.CODIAC_AKTION_KUNDE_UE_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_CAMPAIGN_SUB_PROGRAM_VW_HA (
+    CAMPAIGN_SUB_PROGRAM_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    CAMPAIGN_SUB_PROGRAM_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   CAMPAIGN_SUB_PROGRAM_CODE VARCHAR(50)
+                ,                   CAMPAIGN_SUB_PROGRAM_DESC VARCHAR(250)
+                ,                   ACTIVE_FLAG VARCHAR(1)
+                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 10): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_CAMPAIGN_SUB_PROGRAM_VW_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_CAMPAIGN_SUB_PROGRAM_VW_R (
+                   CAMPAIGN_SUB_PROGRAM_CODE VARCHAR(50)
+                ,                   CAMPAIGN_SUB_PROGRAM_DESC VARCHAR(250)
+                ,                   ACTIVE_FLAG VARCHAR(1)
+                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 6): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_CAMPAIGN_SUB_PROGRAM_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_CHANNEL_VW_HA (
+    CHANNEL_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    CHANNEL_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   CHANNEL_CODE VARCHAR(50)
+                ,                   CHANNEL_DESC VARCHAR(250)
+                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 9): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_CHANNEL_VW_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_CHANNEL_VW_R (
+                   CHANNEL_CODE VARCHAR(50)
+                ,                   CHANNEL_DESC VARCHAR(250)
+                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 5): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_CHANNEL_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_COMPANY_VW_HA (
+    COMPANY_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    COMPANY_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   COMPANY_CODE VARCHAR(50)
+                ,                   COMPANY VARCHAR(250)
+                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 9): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_COMPANY_VW_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_COMPANY_VW_R (
+                   COMPANY_CODE VARCHAR(50)
+                ,                   COMPANY VARCHAR(250)
+                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 5): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_COMPANY_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_CONTACT_PERSON_VW_HA (
+    CONTACT_PERSON_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    CONTACT_PERSON_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   MEASURE VARCHAR(50)
+                ,                   ACTION VARCHAR(50)
+                ,                   PERSON_CODE VARCHAR(50)
+                ,                   COMPANY_CODE VARCHAR(50)
+                ,                   FUNCTION_CODE VARCHAR(50)
+                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 12): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_CONTACT_PERSON_VW_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_CONTACT_PERSON_VW_R (
+                   MEASURE VARCHAR(50)
+                ,                   ACTION VARCHAR(50)
+                ,                   PERSON_CODE VARCHAR(50)
+                ,                   COMPANY_CODE VARCHAR(50)
+                ,                   FUNCTION_CODE VARCHAR(50)
+                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 8): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_CONTACT_PERSON_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_CONTACT_TYPE_VW_HA (
+    CONTACT_TYPE_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    CONTACT_TYPE_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   CONTACT_TYPE_CODE VARCHAR(50)
+                ,                   CONTACT_TYPE VARCHAR(50)
+                ,                   BOOKING_ASSISTED SMALLINT                ,                   BOOKING_DELTA SMALLINT                ,                   ANCILLARY_ASSISTED SMALLINT                ,                   ANCILLARY_DELTA SMALLINT                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 9): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_CONTACT_TYPE_VW_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_CONTACT_TYPE_VW_R (
+                   CONTACT_TYPE_CODE VARCHAR(50)
+                ,                   CONTACT_TYPE VARCHAR(50)
+                ,                   BOOKING_ASSISTED SMALLINT                ,                   BOOKING_DELTA SMALLINT                ,                   ANCILLARY_ASSISTED SMALLINT                ,                   ANCILLARY_DELTA SMALLINT                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 5): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_CONTACT_TYPE_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.CODIAC_EMAIL_HA (
+    EMAIL_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    EMAIL_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   Massnahme INTEGER                ,                   Aktion INTEGER                ,                   KD_KundenID VARCHAR(30)
+                ,                   MT_Mitglieds_ID BIGINT                ,                   ind_Permissions_ID VARCHAR(255)
+                ,                   Versandzeitpunkt TIMESTAMP                ,                   Versender VARCHAR(100)
+                ,                   broadmail_Responsekategorie VARCHAR(100)
+                ,                   Mailing_ID BIGINT                ,                   Mandanten_ID BIGINT                ,                   Mailinglayout_Bezeichnung VARCHAR(255)
+                ,                   Oeffnungsklick SMALLINT                ,                   Oeffnungszeitpunkt TIMESTAMP                ,                   Oeffnungs_ID INTEGER                ,                   Mailing_ID_Oeffnung BIGINT                ,                   Ausloesungszeitpunkt TIMESTAMP                ,                   Linkoeffnungs_ID INTEGER                ,                   Mailing_ID_Link BIGINT                ,                   Mailinglink_ID BIGINT                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 12): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.CODIAC_EMAIL_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.CODIAC_EMAIL_R (
+                   Massnahme INTEGER                ,                   Aktion INTEGER                ,                   KD_KundenID VARCHAR(30)
+                ,                   MT_Mitglieds_ID BIGINT                ,                   ind_Permissions_ID VARCHAR(255)
+                ,                   Versandzeitpunkt TIMESTAMP                ,                   Versender VARCHAR(100)
+                ,                   broadmail_Responsekategorie VARCHAR(100)
+                ,                   Mailing_ID BIGINT                ,                   Mandanten_ID BIGINT                ,                   Mailinglayout_Bezeichnung VARCHAR(255)
+                ,                   Oeffnungsklick SMALLINT                ,                   Oeffnungszeitpunkt TIMESTAMP                ,                   Oeffnungs_ID INTEGER                ,                   Mailing_ID_Oeffnung BIGINT                ,                   Ausloesungszeitpunkt TIMESTAMP                ,                   Linkoeffnungs_ID INTEGER                ,                   Mailing_ID_Link BIGINT                ,                   Mailinglink_ID BIGINT                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 8): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.CODIAC_EMAIL_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.CODIAC_EMAIL_UE_HA (
+    EMAIL_UE_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    EMAIL_UE_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   Massnahme INTEGER                ,                   Aktion INTEGER                ,                   ind_Permissions_ID VARCHAR(255)
+                ,                   Versandzeitpunkt TIMESTAMP                ,                   Versender VARCHAR(100)
+                ,                   Mailing_ID BIGINT                ,                   Mandanten_ID BIGINT                ,                   Mailinglayout_Bezeichnung VARCHAR(255)
+                ,                   Oeffnungsklick SMALLINT                ,                   Oeffnungszeitpunkt TIMESTAMP                ,                   Oeffnungs_ID INTEGER                ,                   Mailing_ID_Oeffnung BIGINT                ,                   Ausloesungszeitpunkt TIMESTAMP                ,                   Linkoeffnungs_ID INTEGER                ,                   Mailing_ID_Link BIGINT                ,                   Mailinglink_ID BIGINT                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 10): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.CODIAC_EMAIL_UE_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.CODIAC_EMAIL_UE_R (
+                   Massnahme INTEGER                ,                   Aktion INTEGER                ,                   ind_Permissions_ID VARCHAR(255)
+                ,                   Versandzeitpunkt TIMESTAMP                ,                   Versender VARCHAR(100)
+                ,                   Mailing_ID BIGINT                ,                   Mandanten_ID BIGINT                ,                   Mailinglayout_Bezeichnung VARCHAR(255)
+                ,                   Oeffnungsklick SMALLINT                ,                   Oeffnungszeitpunkt TIMESTAMP                ,                   Oeffnungs_ID INTEGER                ,                   Mailing_ID_Oeffnung BIGINT                ,                   Ausloesungszeitpunkt TIMESTAMP                ,                   Linkoeffnungs_ID INTEGER                ,                   Mailing_ID_Link BIGINT                ,                   Mailinglink_ID BIGINT                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 6): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.CODIAC_EMAIL_UE_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_FUNCTION_VW_HA (
+    FUNCTION_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    FUNCTION_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   FUNCTION_CODE VARCHAR(50)
+                ,                   FUNCTION VARCHAR(250)
+                ,                   FUNCTION_TYPE VARCHAR(50)
+                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 10): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_FUNCTION_VW_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_FUNCTION_VW_R (
+                   FUNCTION_CODE VARCHAR(50)
+                ,                   FUNCTION VARCHAR(250)
+                ,                   FUNCTION_TYPE VARCHAR(50)
+                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 6): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_FUNCTION_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_INITIATIVE_VW_HA (
+    INITIATIVE_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    INITIATIVE_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   INITIATIVE_CODE VARCHAR(50)
+                ,                   INITIATIVE_DESC VARCHAR(250)
+                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 9): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_INITIATIVE_VW_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_INITIATIVE_VW_R (
+                   INITIATIVE_CODE VARCHAR(50)
+                ,                   INITIATIVE_DESC VARCHAR(250)
+                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 5): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_INITIATIVE_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_LEGAL_ENTITY_VW_HA (
+    LEGAL_ENTITY_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    LEGAL_ENTITY_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   LEGAL_ENTITY_CODE VARCHAR(50)
+                ,                   LEGAL_ENTITY_ID VARCHAR(50)
+                ,                   LEGAL_ENTITY_DESC VARCHAR(50)
+                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 10): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_LEGAL_ENTITY_VW_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_LEGAL_ENTITY_VW_R (
+                   LEGAL_ENTITY_CODE VARCHAR(50)
+                ,                   LEGAL_ENTITY_ID VARCHAR(50)
+                ,                   LEGAL_ENTITY_DESC VARCHAR(50)
+                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 6): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_LEGAL_ENTITY_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_MEASURE_VW_HA (
+    MEASURE_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    MEASURE_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   MEASURE VARCHAR(50)
+                ,                   CAMPAIGN_NAME VARCHAR(250)
+                ,                   CAMPAIGN_EFFECTIVE_DATE DATE                ,                   CAMPAIGN_EXPIRATION_DATE DATE                ,                   LEGAL_ENTITY_CODE VARCHAR(50)
+                ,                   SELECTION_SYSTEM VARCHAR(50)
+                ,                   CAMPAIGNSK BIGINT                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 11): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_MEASURE_VW_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_MEASURE_VW_R (
+                   MEASURE VARCHAR(50)
+                ,                   CAMPAIGN_NAME VARCHAR(250)
+                ,                   CAMPAIGN_EFFECTIVE_DATE DATE                ,                   CAMPAIGN_EXPIRATION_DATE DATE                ,                   LEGAL_ENTITY_CODE VARCHAR(50)
+                ,                   SELECTION_SYSTEM VARCHAR(50)
+                ,                   CAMPAIGNSK BIGINT                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 7): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_MEASURE_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_PERSON_VW_HA (
+    PERSON_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    PERSON_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   PERSON_CODE VARCHAR(50)
+                ,                   COMPANY_CODE VARCHAR(50)
+                ,                   FORENAME VARCHAR(250)
+                ,                   SURENAME VARCHAR(250)
+                ,                   PHONE VARCHAR(120)
+                ,                   EMAIL VARCHAR(320)
+                ,                   FUNCTION_CODE VARCHAR(50)
+                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 14): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_PERSON_VW_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_PERSON_VW_R (
+                   PERSON_CODE VARCHAR(50)
+                ,                   COMPANY_CODE VARCHAR(50)
+                ,                   FORENAME VARCHAR(250)
+                ,                   SURENAME VARCHAR(250)
+                ,                   PHONE VARCHAR(120)
+                ,                   EMAIL VARCHAR(320)
+                ,                   FUNCTION_CODE VARCHAR(50)
+                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 10): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_PERSON_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_RESYNC_CONFIG_VW_HA (
+    RESYNC_CONFIG_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    RESYNC_CONFIG_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   TABLE_NAME VARCHAR(30)
+                ,                   LAST_RUN TIMESTAMP                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 8): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_RESYNC_CONFIG_VW_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_RESYNC_CONFIG_VW_R (
+                   TABLE_NAME VARCHAR(30)
+                ,                   LAST_RUN TIMESTAMP                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 4): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_RESYNC_CONFIG_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_USER_VW_HA (
+    USER_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    USER_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   USERNAME VARCHAR(50)
+                ,                   FIRST_LASTNAME VARCHAR(200)
+                ,                   PERMISSIONS INTEGER                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 9): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_USER_VW_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_USER_VW_R (
+                   USERNAME VARCHAR(50)
+                ,                   FIRST_LASTNAME VARCHAR(200)
+                ,                   PERMISSIONS INTEGER                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 5): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_USER_VW_R;TABLE, DRIVER=4.22.29
+
+-------
+27/58/2019 18:58:14
+-------
+
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_ACTION_VW_HA (
+    ACTION_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    ACTION_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   MEASURE VARCHAR(50)
+                ,                   ACTION VARCHAR(50)
+                ,                   SUB_CAMPAIGN_NAME VARCHAR(50)
+                ,                   CHANNEL_CODE VARCHAR(50)
+                ,                   INITIATIVE_CODE VARCHAR(50)
+                ,                   ADVERTISING_DESIGN_CODE VARCHAR(50)
+                ,                   CONTACT_TYPE_CODE VARCHAR(50)
+                ,                   COST_UNIT VARCHAR(50)
+                ,                   COST_CENTER VARCHAR(50)
+                ,                   CAMPAIGN_SUB_PROGRAM_CODE VARCHAR(50)
+                ,                   EDITION_PLANNED INTEGER                ,                   DELIVERY_LETTERSHOP DATE                ,                   CAMPAIGN_FIXED_COST DECIMAL(19,6)
+                ,                   EDITION_FINAL INTEGER                ,                   PARTNER_CONTRIBUTION DECIMAL(19,6)
+                ,                   CONTACT_DATE DATE                ,                   SELECTION_DATE DATE                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 19): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_ACTION_VW_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_ACTION_VW_R (
+                   MEASURE VARCHAR(50)
+                ,                   ACTION VARCHAR(50)
+                ,                   SUB_CAMPAIGN_NAME VARCHAR(50)
+                ,                   CHANNEL_CODE VARCHAR(50)
+                ,                   INITIATIVE_CODE VARCHAR(50)
+                ,                   ADVERTISING_DESIGN_CODE VARCHAR(50)
+                ,                   CONTACT_TYPE_CODE VARCHAR(50)
+                ,                   COST_UNIT VARCHAR(50)
+                ,                   COST_CENTER VARCHAR(50)
+                ,                   CAMPAIGN_SUB_PROGRAM_CODE VARCHAR(50)
+                ,                   EDITION_PLANNED INTEGER                ,                   DELIVERY_LETTERSHOP DATE                ,                   CAMPAIGN_FIXED_COST DECIMAL(19,6)
+                ,                   EDITION_FINAL INTEGER                ,                   PARTNER_CONTRIBUTION DECIMAL(19,6)
+                ,                   CONTACT_DATE DATE                ,                   SELECTION_DATE DATE                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 15): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_ACTION_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_ADVERTISED_OFFERS_VW_HA (
+    ADVERTISED_OFFERS_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    ADVERTISED_OFFERS_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   MEASURE VARCHAR(50)
+                ,                   ACTION VARCHAR(50)
+                ,                   HOTEL_CODE VARCHAR(20)
+                ,                   ADVERTISING_KIND_CODE VARCHAR(4)
+                ,                   ADVERTISING_DESC VARCHAR(100)
+                ,                   OFFER_NO VARCHAR(2)
+                ,                   GIATAID INTEGER                ,                   OPERATOR VARCHAR(25)
+                ,                   SCOPE VARCHAR(25)
+                ,                   STARTDATE DATE                ,                   ENDDATE DATE                ,                   DURATION SMALLINT                ,                   BOARDTYPE VARCHAR(10)
+                ,                   ROOMTYPE VARCHAR(25)
+                ,                   COOPID VARCHAR(255)
+                ,                   LIST_PRICE DECIMAL(19,6)
+                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 19): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_ADVERTISED_OFFERS_VW_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_ADVERTISED_OFFERS_VW_R (
+                   MEASURE VARCHAR(50)
+                ,                   ACTION VARCHAR(50)
+                ,                   HOTEL_CODE VARCHAR(20)
+                ,                   ADVERTISING_KIND_CODE VARCHAR(4)
+                ,                   ADVERTISING_DESC VARCHAR(100)
+                ,                   OFFER_NO VARCHAR(2)
+                ,                   GIATAID INTEGER                ,                   OPERATOR VARCHAR(25)
+                ,                   SCOPE VARCHAR(25)
+                ,                   STARTDATE DATE                ,                   ENDDATE DATE                ,                   DURATION SMALLINT                ,                   BOARDTYPE VARCHAR(10)
+                ,                   ROOMTYPE VARCHAR(25)
+                ,                   COOPID VARCHAR(255)
+                ,                   LIST_PRICE DECIMAL(19,6)
+                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 15): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_ADVERTISED_OFFERS_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_ADVERTISING_DESIGN_VW_HA (
+    ADVERTISING_DESIGN_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    ADVERTISING_DESIGN_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   ADVERTISING_DESIGN_CODE VARCHAR(50)
+                ,                   ADVERTISING_DESIGN_DESC VARCHAR(250)
+                ,                   TIMESTSAMP_INSERT TIMESTAMP                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 9): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_ADVERTISING_DESIGN_VW_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_ADVERTISING_DESIGN_VW_R (
+                   ADVERTISING_DESIGN_CODE VARCHAR(50)
+                ,                   ADVERTISING_DESIGN_DESC VARCHAR(250)
+                ,                   TIMESTSAMP_INSERT TIMESTAMP                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 5): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_ADVERTISING_DESIGN_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.CODIAC_AKTION_KUNDERETURN_HA (
+    AKTION_KUNDERETURN_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    AKTION_KUNDERETURN_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   Massnahme INTEGER                ,                   Aktion INTEGER                ,                   KD_KundenID VARCHAR(30)
+                ,                   ResponseArt_Code VARCHAR(12)
+                ,                   Datum_Erfassung DATE                ,                   Grund_Bezeichnung VARCHAR(50)
+                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 10): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.CODIAC_AKTION_KUNDERETURN_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.CODIAC_AKTION_KUNDERETURN_R (
+                   Massnahme INTEGER                ,                   Aktion INTEGER                ,                   KD_KundenID VARCHAR(30)
+                ,                   ResponseArt_Code VARCHAR(12)
+                ,                   Datum_Erfassung DATE                ,                   Grund_Bezeichnung VARCHAR(50)
+                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 6): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.CODIAC_AKTION_KUNDERETURN_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.CODIAC_AKTION_KUNDE_HA (
+    AKTION_KUNDE_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    AKTION_KUNDE_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   Massnahme INTEGER                ,                   Aktion INTEGER                ,                   KD_KundenID VARCHAR(30)
+                ,                   Kundenstatus_Code VARCHAR(4)
+                ,                   ResponseArt_Code VARCHAR(12)
+                ,                   ResponseSperrung_Code VARCHAR(4)
+                ,                   Testgruppe SMALLINT                ,                   coupon_category VARCHAR(250)
+                ,                   coupon_token VARCHAR(250)
+                ,                   Linkart INTEGER                ,                   Postauslieferungstermin TIMESTAMP                ,                   Gruppe INTEGER                ,                   Gruppe_Bezeichnung VARCHAR(100)
+                ,                   Buero_SRC_ID_Besitzer VARCHAR(10)
+                ,                   Buero_SRC_ID_Quelle VARCHAR(10)
+                ,                   Ansprache_Brief SMALLINT                ,                   Ansprache_Email SMALLINT                ,                   Ansprache_Telefon SMALLINT                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 16): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.CODIAC_AKTION_KUNDE_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.CODIAC_AKTION_KUNDE_R (
+                   Massnahme INTEGER                ,                   Aktion INTEGER                ,                   KD_KundenID VARCHAR(30)
+                ,                   Kundenstatus_Code VARCHAR(4)
+                ,                   ResponseArt_Code VARCHAR(12)
+                ,                   ResponseSperrung_Code VARCHAR(4)
+                ,                   Testgruppe SMALLINT                ,                   coupon_category VARCHAR(250)
+                ,                   coupon_token VARCHAR(250)
+                ,                   Linkart INTEGER                ,                   Postauslieferungstermin TIMESTAMP                ,                   Gruppe INTEGER                ,                   Gruppe_Bezeichnung VARCHAR(100)
+                ,                   Buero_SRC_ID_Besitzer VARCHAR(10)
+                ,                   Buero_SRC_ID_Quelle VARCHAR(10)
+                ,                   Ansprache_Brief SMALLINT                ,                   Ansprache_Email SMALLINT                ,                   Ansprache_Telefon SMALLINT                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 12): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.CODIAC_AKTION_KUNDE_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.CODIAC_AKTION_KUNDE_UE_HA (
+    AKTION_KUNDE_UE_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    AKTION_KUNDE_UE_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   Massnahme INTEGER                ,                   Aktion INTEGER                ,                   ind_Permissions_ID VARCHAR(255)
+                ,                   Kundenstatus_Code VARCHAR(4)
+                ,                   ResponseArt_Code VARCHAR(12)
+                ,                   ResponseSperrung_Code VARCHAR(4)
+                ,                   Testgruppe SMALLINT                ,                   coupon_category VARCHAR(250)
+                ,                   coupon_token VARCHAR(250)
+                ,                   Linkart INTEGER                ,                   Postauslieferungstermin TIMESTAMP                ,                   Gruppe INTEGER                ,                   Gruppe_Bezeichnung VARCHAR(100)
+                ,                   Buero_SRC_ID_Besitzer VARCHAR(10)
+                ,                   Buero_SRC_ID_Quelle VARCHAR(10)
+                ,                   Ansprache_Brief SMALLINT                ,                   Ansprache_Email SMALLINT                ,                   Ansprache_Telefon SMALLINT                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 16): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.CODIAC_AKTION_KUNDE_UE_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.CODIAC_AKTION_KUNDE_UE_R (
+                   Massnahme INTEGER                ,                   Aktion INTEGER                ,                   ind_Permissions_ID VARCHAR(255)
+                ,                   Kundenstatus_Code VARCHAR(4)
+                ,                   ResponseArt_Code VARCHAR(12)
+                ,                   ResponseSperrung_Code VARCHAR(4)
+                ,                   Testgruppe SMALLINT                ,                   coupon_category VARCHAR(250)
+                ,                   coupon_token VARCHAR(250)
+                ,                   Linkart INTEGER                ,                   Postauslieferungstermin TIMESTAMP                ,                   Gruppe INTEGER                ,                   Gruppe_Bezeichnung VARCHAR(100)
+                ,                   Buero_SRC_ID_Besitzer VARCHAR(10)
+                ,                   Buero_SRC_ID_Quelle VARCHAR(10)
+                ,                   Ansprache_Brief SMALLINT                ,                   Ansprache_Email SMALLINT                ,                   Ansprache_Telefon SMALLINT                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 12): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.CODIAC_AKTION_KUNDE_UE_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_CAMPAIGN_SUB_PROGRAM_VW_HA (
+    CAMPAIGN_SUB_PROGRAM_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    CAMPAIGN_SUB_PROGRAM_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   CAMPAIGN_SUB_PROGRAM_CODE VARCHAR(50)
+                ,                   CAMPAIGN_SUB_PROGRAM_DESC VARCHAR(250)
+                ,                   ACTIVE_FLAG VARCHAR(1)
+                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 10): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_CAMPAIGN_SUB_PROGRAM_VW_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_CAMPAIGN_SUB_PROGRAM_VW_R (
+                   CAMPAIGN_SUB_PROGRAM_CODE VARCHAR(50)
+                ,                   CAMPAIGN_SUB_PROGRAM_DESC VARCHAR(250)
+                ,                   ACTIVE_FLAG VARCHAR(1)
+                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 6): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_CAMPAIGN_SUB_PROGRAM_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_CHANNEL_VW_HA (
+    CHANNEL_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    CHANNEL_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   CHANNEL_CODE VARCHAR(50)
+                ,                   CHANNEL_DESC VARCHAR(250)
+                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 9): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_CHANNEL_VW_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_CHANNEL_VW_R (
+                   CHANNEL_CODE VARCHAR(50)
+                ,                   CHANNEL_DESC VARCHAR(250)
+                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 5): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_CHANNEL_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_COMPANY_VW_HA (
+    COMPANY_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    COMPANY_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   COMPANY_CODE VARCHAR(50)
+                ,                   COMPANY VARCHAR(250)
+                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 9): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_COMPANY_VW_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_COMPANY_VW_R (
+                   COMPANY_CODE VARCHAR(50)
+                ,                   COMPANY VARCHAR(250)
+                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 5): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_COMPANY_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_CONTACT_PERSON_VW_HA (
+    CONTACT_PERSON_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    CONTACT_PERSON_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   MEASURE VARCHAR(50)
+                ,                   ACTION VARCHAR(50)
+                ,                   PERSON_CODE VARCHAR(50)
+                ,                   COMPANY_CODE VARCHAR(50)
+                ,                   FUNCTION_CODE VARCHAR(50)
+                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 12): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_CONTACT_PERSON_VW_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_CONTACT_PERSON_VW_R (
+                   MEASURE VARCHAR(50)
+                ,                   ACTION VARCHAR(50)
+                ,                   PERSON_CODE VARCHAR(50)
+                ,                   COMPANY_CODE VARCHAR(50)
+                ,                   FUNCTION_CODE VARCHAR(50)
+                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 8): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_CONTACT_PERSON_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_CONTACT_TYPE_VW_HA (
+    CONTACT_TYPE_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    CONTACT_TYPE_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   CONTACT_TYPE_CODE VARCHAR(50)
+                ,                   CONTACT_TYPE VARCHAR(50)
+                ,                   BOOKING_ASSISTED SMALLINT                ,                   BOOKING_DELTA SMALLINT                ,                   ANCILLARY_ASSISTED SMALLINT                ,                   ANCILLARY_DELTA SMALLINT                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 9): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_CONTACT_TYPE_VW_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_CONTACT_TYPE_VW_R (
+                   CONTACT_TYPE_CODE VARCHAR(50)
+                ,                   CONTACT_TYPE VARCHAR(50)
+                ,                   BOOKING_ASSISTED SMALLINT                ,                   BOOKING_DELTA SMALLINT                ,                   ANCILLARY_ASSISTED SMALLINT                ,                   ANCILLARY_DELTA SMALLINT                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 5): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_CONTACT_TYPE_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.CODIAC_EMAIL_HA (
+    EMAIL_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    EMAIL_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   Massnahme INTEGER                ,                   Aktion INTEGER                ,                   KD_KundenID VARCHAR(30)
+                ,                   MT_Mitglieds_ID BIGINT                ,                   ind_Permissions_ID VARCHAR(255)
+                ,                   Versandzeitpunkt TIMESTAMP                ,                   Versender VARCHAR(100)
+                ,                   broadmail_Responsekategorie VARCHAR(100)
+                ,                   Mailing_ID BIGINT                ,                   Mandanten_ID BIGINT                ,                   Mailinglayout_Bezeichnung VARCHAR(255)
+                ,                   Oeffnungsklick SMALLINT                ,                   Oeffnungszeitpunkt TIMESTAMP                ,                   Oeffnungs_ID INTEGER                ,                   Mailing_ID_Oeffnung BIGINT                ,                   Ausloesungszeitpunkt TIMESTAMP                ,                   Linkoeffnungs_ID INTEGER                ,                   Mailing_ID_Link BIGINT                ,                   Mailinglink_ID BIGINT                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 12): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.CODIAC_EMAIL_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.CODIAC_EMAIL_R (
+                   Massnahme INTEGER                ,                   Aktion INTEGER                ,                   KD_KundenID VARCHAR(30)
+                ,                   MT_Mitglieds_ID BIGINT                ,                   ind_Permissions_ID VARCHAR(255)
+                ,                   Versandzeitpunkt TIMESTAMP                ,                   Versender VARCHAR(100)
+                ,                   broadmail_Responsekategorie VARCHAR(100)
+                ,                   Mailing_ID BIGINT                ,                   Mandanten_ID BIGINT                ,                   Mailinglayout_Bezeichnung VARCHAR(255)
+                ,                   Oeffnungsklick SMALLINT                ,                   Oeffnungszeitpunkt TIMESTAMP                ,                   Oeffnungs_ID INTEGER                ,                   Mailing_ID_Oeffnung BIGINT                ,                   Ausloesungszeitpunkt TIMESTAMP                ,                   Linkoeffnungs_ID INTEGER                ,                   Mailing_ID_Link BIGINT                ,                   Mailinglink_ID BIGINT                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 8): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.CODIAC_EMAIL_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.CODIAC_EMAIL_UE_HA (
+    EMAIL_UE_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    EMAIL_UE_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   Massnahme INTEGER                ,                   Aktion INTEGER                ,                   ind_Permissions_ID VARCHAR(255)
+                ,                   Versandzeitpunkt TIMESTAMP                ,                   Versender VARCHAR(100)
+                ,                   Mailing_ID BIGINT                ,                   Mandanten_ID BIGINT                ,                   Mailinglayout_Bezeichnung VARCHAR(255)
+                ,                   Oeffnungsklick SMALLINT                ,                   Oeffnungszeitpunkt TIMESTAMP                ,                   Oeffnungs_ID INTEGER                ,                   Mailing_ID_Oeffnung BIGINT                ,                   Ausloesungszeitpunkt TIMESTAMP                ,                   Linkoeffnungs_ID INTEGER                ,                   Mailing_ID_Link BIGINT                ,                   Mailinglink_ID BIGINT                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 10): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.CODIAC_EMAIL_UE_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.CODIAC_EMAIL_UE_R (
+                   Massnahme INTEGER                ,                   Aktion INTEGER                ,                   ind_Permissions_ID VARCHAR(255)
+                ,                   Versandzeitpunkt TIMESTAMP                ,                   Versender VARCHAR(100)
+                ,                   Mailing_ID BIGINT                ,                   Mandanten_ID BIGINT                ,                   Mailinglayout_Bezeichnung VARCHAR(255)
+                ,                   Oeffnungsklick SMALLINT                ,                   Oeffnungszeitpunkt TIMESTAMP                ,                   Oeffnungs_ID INTEGER                ,                   Mailing_ID_Oeffnung BIGINT                ,                   Ausloesungszeitpunkt TIMESTAMP                ,                   Linkoeffnungs_ID INTEGER                ,                   Mailing_ID_Link BIGINT                ,                   Mailinglink_ID BIGINT                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 6): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.CODIAC_EMAIL_UE_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_FUNCTION_VW_HA (
+    FUNCTION_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    FUNCTION_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   FUNCTION_CODE VARCHAR(50)
+                ,                   FUNCTION VARCHAR(250)
+                ,                   FUNCTION_TYPE VARCHAR(50)
+                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 10): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_FUNCTION_VW_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_FUNCTION_VW_R (
+                   FUNCTION_CODE VARCHAR(50)
+                ,                   FUNCTION VARCHAR(250)
+                ,                   FUNCTION_TYPE VARCHAR(50)
+                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 6): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_FUNCTION_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_INITIATIVE_VW_HA (
+    INITIATIVE_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    INITIATIVE_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   INITIATIVE_CODE VARCHAR(50)
+                ,                   INITIATIVE_DESC VARCHAR(250)
+                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 9): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_INITIATIVE_VW_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_INITIATIVE_VW_R (
+                   INITIATIVE_CODE VARCHAR(50)
+                ,                   INITIATIVE_DESC VARCHAR(250)
+                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 5): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_INITIATIVE_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_LEGAL_ENTITY_VW_HA (
+    LEGAL_ENTITY_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    LEGAL_ENTITY_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   LEGAL_ENTITY_CODE VARCHAR(50)
+                ,                   LEGAL_ENTITY_ID VARCHAR(50)
+                ,                   LEGAL_ENTITY_DESC VARCHAR(50)
+                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 10): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_LEGAL_ENTITY_VW_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_LEGAL_ENTITY_VW_R (
+                   LEGAL_ENTITY_CODE VARCHAR(50)
+                ,                   LEGAL_ENTITY_ID VARCHAR(50)
+                ,                   LEGAL_ENTITY_DESC VARCHAR(50)
+                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 6): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_LEGAL_ENTITY_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_MEASURE_VW_HA (
+    MEASURE_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    MEASURE_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   MEASURE VARCHAR(50)
+                ,                   CAMPAIGN_NAME VARCHAR(250)
+                ,                   CAMPAIGN_EFFECTIVE_DATE DATE                ,                   CAMPAIGN_EXPIRATION_DATE DATE                ,                   LEGAL_ENTITY_CODE VARCHAR(50)
+                ,                   SELECTION_SYSTEM VARCHAR(50)
+                ,                   CAMPAIGNSK BIGINT                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 11): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_MEASURE_VW_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_MEASURE_VW_R (
+                   MEASURE VARCHAR(50)
+                ,                   CAMPAIGN_NAME VARCHAR(250)
+                ,                   CAMPAIGN_EFFECTIVE_DATE DATE                ,                   CAMPAIGN_EXPIRATION_DATE DATE                ,                   LEGAL_ENTITY_CODE VARCHAR(50)
+                ,                   SELECTION_SYSTEM VARCHAR(50)
+                ,                   CAMPAIGNSK BIGINT                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 7): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_MEASURE_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_PERSON_VW_HA (
+    PERSON_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    PERSON_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   PERSON_CODE VARCHAR(50)
+                ,                   COMPANY_CODE VARCHAR(50)
+                ,                   FORENAME VARCHAR(250)
+                ,                   SURENAME VARCHAR(250)
+                ,                   PHONE VARCHAR(120)
+                ,                   EMAIL VARCHAR(320)
+                ,                   FUNCTION_CODE VARCHAR(50)
+                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 14): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_PERSON_VW_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_PERSON_VW_R (
+                   PERSON_CODE VARCHAR(50)
+                ,                   COMPANY_CODE VARCHAR(50)
+                ,                   FORENAME VARCHAR(250)
+                ,                   SURENAME VARCHAR(250)
+                ,                   PHONE VARCHAR(120)
+                ,                   EMAIL VARCHAR(320)
+                ,                   FUNCTION_CODE VARCHAR(50)
+                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 10): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_PERSON_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_RESYNC_CONFIG_VW_HA (
+    RESYNC_CONFIG_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    RESYNC_CONFIG_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   TABLE_NAME VARCHAR(30)
+                ,                   LAST_RUN TIMESTAMP                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 8): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_RESYNC_CONFIG_VW_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_RESYNC_CONFIG_VW_R (
+                   TABLE_NAME VARCHAR(30)
+                ,                   LAST_RUN TIMESTAMP                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 4): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_RESYNC_CONFIG_VW_R;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_USER_VW_HA (
+    USER_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    RSRC VARCHAR(20) NOT NULL,
+    USER_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   USERNAME VARCHAR(50)
+                ,                   FIRST_LASTNAME VARCHAR(200)
+                ,                   PERMISSIONS INTEGER                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 9): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_USER_VW_HA;TABLE, DRIVER=4.22.29
+Error executing 'CREATE TABLE KAMP_HA.KAMPMETA_USER_VW_R (
+                   USERNAME VARCHAR(50)
+                ,                   FIRST_LASTNAME VARCHAR(200)
+                ,                   PERMISSIONS INTEGER                )
+IN TS_KAMP_HA INDEX IN TS_KAMP_HA COMPRESS YES ' (line 5): DB2 SQL Error: SQLCODE=-601, SQLSTATE=42710, SQLERRMC=KAMP_HA.KAMPMETA_USER_VW_R;TABLE, DRIVER=4.22.29

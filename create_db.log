@@ -1,0 +1,49 @@
+
+-------
+20/38/2019 15:38:58
+-------
+
+CREATE TABLE CODIAC_HA.KAMPMETA_ACTION_VW_HA (
+    ACTION_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    ACTION_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   MEASURE VARCHAR(50)
+         NOT NULL ,                   ACTION VARCHAR(50)
+         NOT NULL ,                   SUB_CAMPAIGN_NAME VARCHAR(50)
+        ,                   CHANNEL_CODE VARCHAR(50)
+        ,                   INITIATIVE_CODE VARCHAR(50)
+        ,                   ADVERTISING_DESIGN_CODE VARCHAR(50)
+        ,                   CONTACT_TYPE_CODE VARCHAR(50)
+        ,                   COST_UNIT VARCHAR(50)
+        ,                   COST_CENTER VARCHAR(50)
+        ,                   CAMPAIGN_SUB_PROGRAM_CODE VARCHAR(50)
+        ,                   EDITION_PLANNED INTEGER        ,                   DELIVERY_LETTERSHOP DATE        ,                    UNSUPPORTED TYPE DECIMAL        ,                   EDITION_FINAL INTEGER        ,                    UNSUPPORTED TYPE DECIMAL        ,                   CONTACT_DATE DATE        ,                   SELECTION_DATE DATE        )
+IN TS_CUSTOMER INDEX IN TS_CUSTOMER
+COMPRESS YES
+ 
+
+-------
+20/41/2019 15:41:03
+-------
+
+CREATE TABLE CODIAC_HA.KAMPMETA_ACTION_VW_HA (
+    ACTION_VW_HK CHAR(16) FOR BIT DATA NOT NULL,
+    LDTS TIMESTAMP NOT NULL,
+    ACTION_VW_HF CHAR(16) FOR BIT DATA NOT NULL,
+                   MEASURE VARCHAR(50)
+         NOT NULL ,                   ACTION VARCHAR(50)
+         NOT NULL ,                   SUB_CAMPAIGN_NAME VARCHAR(50)
+        ,                   CHANNEL_CODE VARCHAR(50)
+        ,                   INITIATIVE_CODE VARCHAR(50)
+        ,                   ADVERTISING_DESIGN_CODE VARCHAR(50)
+        ,                   CONTACT_TYPE_CODE VARCHAR(50)
+        ,                   COST_UNIT VARCHAR(50)
+        ,                   COST_CENTER VARCHAR(50)
+        ,                   CAMPAIGN_SUB_PROGRAM_CODE VARCHAR(50)
+        ,                   EDITION_PLANNED INTEGER        ,                   DELIVERY_LETTERSHOP DATE        ,                   CAMPAIGN_FIXED_COST DECIMAL(19,6)
+        ,                   EDITION_FINAL INTEGER        ,                   PARTNER_CONTRIBUTION DECIMAL(19,6)
+        ,                   CONTACT_DATE DATE        ,                   SELECTION_DATE DATE        )
+IN TS_CUSTOMER INDEX IN TS_CUSTOMER
+COMPRESS YES
+ 
+
