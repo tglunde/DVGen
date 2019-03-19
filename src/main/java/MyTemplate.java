@@ -20,14 +20,14 @@ public class MyTemplate {
     public static void main(String[] args) throws Exception {
 
         MyTemplate.generateArtefacts(MyTemplate.retrieveInterfaceSqlServer(),
-                "KAMPDB"
+                "CAMPAIGN"
         , "SYS_CAMPAIGN_CORE", "campaign_core", "REP_ETLD", "DB2", "DB2", "TS_CUSTOMER"
                 , "TS_CUSTOMER", "Microsoft SQL Server", "CODIAC", "CODIAC_KAMP.dbo"
         , "TARGET_TUFIS_BULK", "SOURCE_CODIAC_WORK"
                 , "./target/");
 
         MyTemplate.generateArtefacts(MyTemplate.retrieveKampMeta(),
-                "KAMPDB"
+                "CAMPAIGN"
                 , "SYS_CAMPAIGN_CORE", "campaign_core", "REP_ETLD", "DB2"
                 , "DB2"
                 , "TS_CUSTOMER", "TS_CUSTOMER"
@@ -93,6 +93,7 @@ public class MyTemplate {
         context.put("target_type", targetDbType);
         context.put("target_connection", infaTargetConnection);
         context.put("source_connection", infaSourceConnection);
+        context.put("subject_area", subjectArea);
         int n = 0;
         for(Table table : tables) {
             context.put("source_table", table.getName());
@@ -105,16 +106,19 @@ public class MyTemplate {
             MyTemplate.output(pEngine, "create_table_r.sql", context, tempDirectory + "/sqlr/V0_0_" + n + "__" + table.getName() + "_r.sql");
             MyTemplate.output(pEngine, "create_table_ha.sql", context, tempDirectory + "/sqlha/V0_0_" + n++ + "__" + table.getName() + "_ha.sql");
             context.put("target_schema", subjectArea + "_R");
+
+            context.put("source_connection", infaSourceConnection);
             MyTemplate.output(pEngine, "wf_replication.XML", context, tempDirectory + "/wf/" + table.getName() + ".XML");
             context.put("source_schema", subjectArea + "_R");
             context.put("target_schema", subjectArea + "_HA");
             MyTemplate.output(pEngine, "load_ha.sql", context, tempDirectory + "/elt/load_" + table.getName() + "_ha.sql");
             String content = readFile(tempDirectory + "/elt/load_" + table.getName() + "_ha.sql", StandardCharsets.ISO_8859_1);
             context.put("sql_query", content);
-            context.put("wf_name", "wf_load_HA_"+ sourceName + "_" + table.getName());
-            context.put("map_name", "m_load_HA_"+ sourceName +"_" + table.getName());
-            context.put("ses_name", "s_load_HA_" + sourceName + table.getName());
-            MyTemplate.output(pEngine, "wf_exec.XML", context, tempDirectory + "/wf/wf_load_HA_" + table.getName() + ".XML");
+            context.put("wf_name", "wf_load_"+ sourceName + "_" + table.getName() + "_HA");
+            context.put("map_name", "m_load_"+ sourceName +"_" + table.getName() + "_HA");
+            context.put("ses_name", "s_load_" + sourceName +"_" + table.getName() + "_HA");
+            context.put("source_connection", infaTargetConnection);
+            MyTemplate.output(pEngine, "wf_exec.XML", context, tempDirectory + "/wf/wf_load_" + table.getName() + "_HA.XML");
         }
     }
     private static List<Column> getBk(Table table) {

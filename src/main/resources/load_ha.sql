@@ -18,7 +18,7 @@
         SRC.{{column.name}}=TGT.{{column.name}}{% if not loop.last %} AND {% endif -%}
     {% endfor -%}
 {% endmacro %}
-call DWH_TOOL.LOAD_INSERT('
+call {{subject_area}}_TOOL.LOAD_INSERT('
 	WITH SRC as (
     SELECT
           loadudbm.md5({{ hk(bks) }}) AS HK
@@ -41,5 +41,4 @@ call DWH_TOOL.LOAD_INSERT('
 		TGT.HK IS NULL OR (TGT.HK IS NOT NULL AND SRC.HF!=TGT.HF)
 	)  WITH UR'
 	,
-	'{{target_schema}}.CODIAC_{{table_name}}_HA', ?);
-COMMIT;
+	'{{target_schema}}.{{source_name}}_{{table_name}}_HA');
