@@ -1,8 +1,14 @@
+package com.tui.dwh;
+
 import com.mitchellbosecke.pebble.PebbleEngine;
 import com.mitchellbosecke.pebble.loader.ClasspathLoader;
 import com.mitchellbosecke.pebble.template.PebbleTemplate;
+import com.tui.dwh.model.Cbc;
+import com.tui.dwh.model.Context;
+import com.tui.dwh.model.Nbr;
+import com.tui.dwh.model.Subjectarea;
 import net.sf.saxon.Transform;
-import org.apache.commons.dbcp.BasicDataSource;
+import org.apache.commons.dbcp2.BasicDataSource;
 import org.apache.ddlutils.model.Column;
 import org.apache.ddlutils.model.Table;
 
@@ -23,8 +29,8 @@ public class MyTemplate {
                 "CAMPAIGN"
         , "SYS_CAMPAIGN_CORE", "campaign_core", "REP_ETLD", "DB2", "DB2", "TS_CUSTOMER"
                 , "TS_CUSTOMER", "Microsoft SQL Server", "CODIAC", "CODIAC_KAMP.dbo"
-        , "TARGET_TUFIS_BULK", "SOURCE_CODIAC_WORK"
-                , "./target/");
+        , "TARGET_BLU", "SOURCE_CODIAC_WORK"
+                , "./target/", "1");
 
         MyTemplate.generateArtefacts(MyTemplate.retrieveKampMeta(),
                 "CAMPAIGN"
@@ -32,31 +38,41 @@ public class MyTemplate {
                 , "DB2"
                 , "TS_CUSTOMER", "TS_CUSTOMER"
                 , "DB2", "KAMPMETA", "KAMP_META"
-                , "TARGET_TUFIS_BULK", "SOURCE_TUFIS_UR"
-                , "./target/");
-
-        /*
-        BasicDataSource basicDS = new BasicDataSource();
-        basicDS.setDriverClassName("com.ibm.db2.jcc.DB2Driver");
-        basicDS.setUrl("jdbc:db2://udbm.udb.tui.de:50200/UDBM");
-        basicDS.setUsername("loadudbm");
-        basicDS.setPassword("loadudbm");
-        ScriptRunner scriptRunner = new ScriptRunner(basicDS.getConnection(), false, false);
-        scriptRunner.setLogWriter(new PrintWriter(System.out));
-        File directory = new File("./target/sql/");
-        for (String sqlFile : directory.list(new FilenameFilter() {
-            @Override
-            public boolean accept(File file, String s) {
-                return s.endsWith(".sql");
-            }
-        })) {
-            scriptRunner.runScript(new BufferedReader((new FileReader("./target/sql/" + sqlFile))));
-        }
-        */
+                , "TARGET_BLU", "SOURCE_TUFIS_UR"
+                , "./target/", "2");
 
         String[] arglist = {"-xsl:src/main/resources/wf.xsl" , "-it:main", "-o:workflows.xml"};
         Transform.main(arglist);
 
+        ELMModelFactory emf = new ELMModelFactory();
+        Subjectarea elm = emf.createModel(Paths.get(ClassLoader.getSystemResource("campaign.erdplus").toURI()));
+        generateVault(elm, "./target/", "CAMPAIGN", "CMP");
+    }
+
+    private static void generateVault(Subjectarea elm, String tempDirectory, String subjectArea, String subjectAreaPrefix) throws IOException {
+        new File(tempDirectory + "/vault/ddl/").mkdirs();
+        new File(tempDirectory + "/vault/elt/").mkdirs();
+        PebbleEngine pEngine = new PebbleEngine.Builder().loader(new ClasspathLoader()).build();
+        Map<String,Object> context = new HashMap<String, Object>();
+        int n = 0;
+        for(Cbc cbc : elm.getCbcs()) {
+            context.put("cbc", cbc);
+            context.put("schema_name", subjectArea);
+            context.put("subject_area", subjectAreaPrefix);
+            MyTemplate.output(pEngine, "create_table_hub.sql", context, tempDirectory + "/vault/ddl/V" + "0_0_" + ++n + "__" + cbc.getCbc().toUpperCase() + "_hub.sql");
+            context.put("context", cbc.getBusinessKey());
+            MyTemplate.output(pEngine, "create_table_sat.sql", context, tempDirectory + "/vault/ddl/V" + "0_0_" + ++n + "__" + cbc.getCbc().toUpperCase() + "_BOK_sat.sql");
+            for(Context satContext : cbc.getContexts()) {
+                context.put("context", satContext);
+                MyTemplate.output(pEngine, "create_table_sat.sql", context, tempDirectory + "/vault/ddl/V" + "0_0_" + ++n + "__" + cbc.getCbc().toUpperCase()  + "_" + satContext.getContextname().toUpperCase() + "_sat.sql");
+            }
+        }
+        for(Nbr nbr : elm.getNbrs()) {
+            context.put("nbr", nbr);
+            context.put("schema_name", subjectArea);
+            context.put("subject_area", subjectAreaPrefix);
+            MyTemplate.output(pEngine, "create_table_link.sql", context, tempDirectory + "/vault/ddl/V" + "0_0_" + ++n + "__" + nbr.getNbr().toUpperCase() + "_lnk.sql");
+        }
     }
 
     private static void generateArtefacts(  List<Table> tables
@@ -74,6 +90,7 @@ public class MyTemplate {
                                           , String infaTargetConnection
                                           , String infaSourceConnection
                                           , String tempDirectory
+                                          , String interfaceNumber
 
     ) throws IOException {
         new File(tempDirectory + "/elt/").mkdirs();
@@ -103,8 +120,8 @@ public class MyTemplate {
             context.put("table_name", table.getName());
             context.put("schema_name", subjectArea + "_HA");
             context.put("source_schema", sourceSchema);
-            MyTemplate.output(pEngine, "create_table_r.sql", context, tempDirectory + "/sqlr/V0_0_" + n + "__" + table.getName() + "_r.sql");
-            MyTemplate.output(pEngine, "create_table_ha.sql", context, tempDirectory + "/sqlha/V0_0_" + n++ + "__" + table.getName() + "_ha.sql");
+            MyTemplate.output(pEngine, "create_table_r.sql", context, tempDirectory + "/sqlr/V" + interfaceNumber+"_0_" + n + "__" + table.getName() + "_r.sql");
+            MyTemplate.output(pEngine, "create_table_ha.sql", context, tempDirectory + "/sqlha/V"+ interfaceNumber + "_0_" + n++ + "__" + table.getName() + "_ha.sql");
             context.put("target_schema", subjectArea + "_R");
 
             context.put("source_connection", infaSourceConnection);
@@ -237,11 +254,12 @@ public class MyTemplate {
         BasicDataSource basicDS = new BasicDataSource();
         basicDS.setDriverClassName("net.sourceforge.jtds.jdbc.Driver");
         basicDS.setUrl("jdbc:jtds:sqlserver://hajas001cdcs:1433/CODIAC_KAMP;databaseName=CODIAC_KAMP;integratedSecurity=true;");
+        basicDS.setValidationQuery("select 1");
         ResultSet rs = basicDS.getConnection().createStatement().executeQuery(
                 "select c.TABLE_NAME, c.COLUMN_NAME, c.DATA_TYPE, c.NUMERIC_SCALE, c.NUMERIC_PRECISION, c.IS_NULLABLE, c.CHARACTER_MAXIMUM_LENGTH, c.ORDINAL_POSITION " +
                         "from INFORMATION_SCHEMA.COLUMNS c " +
                         "where 1=1 " +
-                        "AND TABLE_NAME IN ('AKTION_KUNDE','AKTION_KUNDE_UE','AKTION_KUNDERETURN','EMAIL','EMAIL_UE') ORDER BY c.TABLE_NAME, c.ORDINAL_POSITION");
+                        "AND TABLE_NAME IN ('AKTION_KUNDE','AKTION_KUNDE_UE','AKTION_KUNDERETURN','EMAIL','EMAIL_UE','MAILINGVORLAGE','MAILINGMANDANT','MAILINGLINK') ORDER BY c.TABLE_NAME, c.ORDINAL_POSITION");
 
 
         List<String> bkNames = new ArrayList<>();
@@ -251,6 +269,10 @@ public class MyTemplate {
         bkNames.add("IND_PERMISSIONS_ID");
         bkNames.add("OEFFNUNGSID");
         bkNames.add("LINKOEFFNUNGS_ID");
+        bkNames.add("Mailing_ID");
+        bkNames.add("Mailinglink_ID");
+        bkNames.add("Mandanten_ID");
+        bkNames.add("Mailinglayout_ID");
 
         List<Table> tables = new ArrayList<Table>();
         Table t = new Table();
@@ -279,6 +301,8 @@ public class MyTemplate {
             } else if(rs.getString("DATA_TYPE").equals("date")) {
                 column.setTypeCode(Types.DATE);
             } else if(rs.getString("DATA_TYPE").equals("bit")) {
+                column.setTypeCode(Types.SMALLINT);
+            } else if(rs.getString("DATA_TYPE").equals("tinyint")) {
                 column.setTypeCode(Types.SMALLINT);
             } else {
                 throw new RuntimeException("unszpported datatype " + rs.getString("DATA_TYPE"));

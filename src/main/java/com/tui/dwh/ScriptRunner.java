@@ -1,5 +1,5 @@
-/*
- * Slightly modified version of the com.ibatis.common.jdbc.ScriptRunner class
+package com.tui.dwh;/*
+ * Slightly modified version of the com.ibatis.common.jdbc.com.tui.dwh.ScriptRunner class
  * from the iBATIS Apache project. Only removed dependency on Resource class
  * and a constructor
  * GPSHansl, 06.08.2015: regex for delimiter, rearrange comment/delimiter detection, remove some ide warnings.
@@ -166,8 +166,8 @@ public class ScriptRunner {
                         && trimmedLine.endsWith(getDelimiter())
                         || fullLineDelimiter
                         && trimmedLine.equals(getDelimiter())) {
-                    command.append(line.substring(0, line
-                            .lastIndexOf(getDelimiter())));
+                    command.append(line, 0, line
+                            .lastIndexOf(getDelimiter()));
                     command.append(" ");
                     this.execCommand(conn, command, lineReader);
                     command = null;

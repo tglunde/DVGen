@@ -21,15 +21,14 @@
 call {{subject_area}}_TOOL.LOAD_INSERT('
 	WITH SRC as (
     SELECT
-          loadudbm.md5({{ hk(bks) }}) AS HK
-        , current_timestamp as LDTS
+          current_timestamp as LDTS
         , ''{{source_name}}'' AS RSRC
         , x''00000000000000000000000000000000'' AS HF
         , {{ columnlist(columns) }}
     FROM {{source_schema}}.{{source_name}}_{{table_name}}_R SRC
 	), TGT as (
-		select tgt.{{table_name}}_HK HK, tgt.{{table_name}}_HF HF, {{bkstringTGT(bks)}} from (
-			select tgt.*, row_number() over (partition by {{table_name}}_HK order by ldts desc) as version from {{target_schema}}.{{source_name}}_{{table_name}}_HA tgt with ur
+		select tgt.{{table_name}}_SK SK, {{bkstringTGT(bks)}} from (
+			select tgt.*, row_number() over (partition by {{table_name}}_SK order by ldts desc) as version from {{target_schema}}.{{source_name}}_{{table_name}}_HA tgt with ur
 		) tgt where version = 1
 	)
 	SELECT
@@ -38,7 +37,7 @@ call {{subject_area}}_TOOL.LOAD_INSERT('
 	LEFT JOIN TGT ON {{bkJOIN(bks)}}
 	WHERE 1=1
 	AND (
-		TGT.HK IS NULL OR (TGT.HK IS NOT NULL AND SRC.HF!=TGT.HF)
+		TGT.SK IS NULL OR (TGT.SK IS NOT NULL AND SRC.HF!=TGT.HF)
 	)  WITH UR'
 	,
 	'{{target_schema}}.{{source_name}}_{{table_name}}_HA');
